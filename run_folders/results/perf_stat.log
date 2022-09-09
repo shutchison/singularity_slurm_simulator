@@ -1,0 +1,11 @@
+{
+ "slurmdbd_create_time": "2022-02-14T14:56:11.380000",
+ "slurmctld_create_time": "2022-02-14T14:56:17.440000",
+ "slurmd_create_time": null,
+ "jobs_starts": 1644872207,
+ "system_info": {
+  "cpu": null,
+  "memory": null
+ },
+ "slurmctld_walltime": 1.0354900360107422
+}

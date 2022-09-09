@@ -1,0 +1,6 @@
+{ global:
+   slurm_*;
+   slurmdb_*;
+   working_cluster_rec;
+  local: *;
+};

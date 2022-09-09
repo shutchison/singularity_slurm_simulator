@@ -1,0 +1,666 @@
+[2000-12-31T23:00:00.001] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.002] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.002] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.002] debug3: Success.
+[2000-12-31T23:00:00.002] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.007] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:00.011] error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[2000-12-31T23:00:00.011] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:05.012] error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[2000-12-31T23:00:05.012] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:10.013] error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[2000-12-31T23:00:10.013] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:00.000] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.001] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.001] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.001] debug3: Success.
+[2000-12-31T23:00:00.001] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.006] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:00.018] error: mysql_real_connect failed: 1045 Access denied for user 'scotthutch'@'localhost' (using password: YES)
+[2000-12-31T23:00:00.019] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:00.001] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.001] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.002] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.002] debug3: Success.
+[2000-12-31T23:00:00.002] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.007] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:00.013] debug:  Database slurmdb_beocat not created.  Creating
+[2000-12-31T23:00:02.053] debug4: Table cluster_table doesn't exist, adding
+[2000-12-31T23:00:02.828] debug4: Table txn_table doesn't exist, adding
+[2000-12-31T23:00:03.928] debug4: Table tres_table doesn't exist, adding
+[2000-12-31T23:00:04.678] debug4: Table acct_coord_table doesn't exist, adding
+[2000-12-31T23:00:06.333] debug4: Table acct_table doesn't exist, adding
+[2000-12-31T23:00:07.697] debug4: Table res_table doesn't exist, adding
+[2000-12-31T23:00:08.822] debug4: Table clus_res_table doesn't exist, adding
+[2000-12-31T23:00:10.125] debug4: Table qos_table doesn't exist, adding
+[2000-12-31T23:00:11.732] debug4: Table user_table doesn't exist, adding
+[2000-12-31T23:00:12.557] debug4: Table federation_table doesn't exist, adding
+[2000-12-31T23:00:12.721] Accounting storage MYSQL plugin loaded
+[2000-12-31T23:00:12.721] debug3: Success.
+[2000-12-31T23:00:12.788] pidfile not locked, assuming no running daemon
+[2000-12-31T23:00:12.789] error: Unable to open pidfile `/home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid': Read-only file system
+[2000-12-31T23:00:12.789] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:12.789] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:12.789] debug2: ArchiveDir        = /tmp
+[2000-12-31T23:00:12.790] debug2: ArchiveScript     = (null)
+[2000-12-31T23:00:12.790] debug2: AuthInfo          = (null)
+[2000-12-31T23:00:12.790] debug2: AuthType          = auth/none
+[2000-12-31T23:00:12.790] debug2: CommitDelay       = 0
+[2000-12-31T23:00:12.790] debug2: DbdAddr           = localhost
+[2000-12-31T23:00:12.791] debug2: DbdBackupHost     = (null)
+[2000-12-31T23:00:12.791] debug2: DbdHost           = localhost
+[2000-12-31T23:00:12.791] debug2: DbdPort           = 12345
+[2000-12-31T23:00:12.791] debug2: DebugFlags        = (null)
+[2000-12-31T23:00:12.792] debug2: DebugLevel        = 8
+[2000-12-31T23:00:12.792] debug2: DefaultQOS        = (null)
+[2000-12-31T23:00:12.792] debug2: LogFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurmdbd.log
+[2000-12-31T23:00:12.792] debug2: MessageTimeout    = 10
+[2000-12-31T23:00:12.793] debug2: PidFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid
+[2000-12-31T23:00:12.793] debug2: PluginDir         = /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm
+[2000-12-31T23:00:12.793] debug2: PrivateData       = accounts,jobs,reservations,usage,users
+[2000-12-31T23:00:12.793] debug2: PurgeEventAfter   = NONE
+[2000-12-31T23:00:12.793] debug2: PurgeJobAfter     = NONE
+[2000-12-31T23:00:12.793] debug2: PurgeResvAfter    = NONE
+[2000-12-31T23:00:12.793] debug2: PurgeStepAfter    = NONE
+[2000-12-31T23:00:12.794] debug2: PurgeSuspendAfter = NONE
+[2000-12-31T23:00:12.794] debug2: PurgeTXNAfter = NONE
+[2000-12-31T23:00:12.794] debug2: PurgeUsageAfter = NONE
+[2000-12-31T23:00:12.794] debug2: SlurmUser         = scotthutch(4020)
+[2000-12-31T23:00:12.794] debug2: StorageBackupHost = (null)
+[2000-12-31T23:00:12.794] debug2: StorageHost       = localhost
+[2000-12-31T23:00:12.794] debug2: StorageLoc        = slurmdb_beocat
+[2000-12-31T23:00:12.794] debug2: StoragePort       = 3306
+[2000-12-31T23:00:12.794] debug2: StorageType       = accounting_storage/mysql
+[2000-12-31T23:00:12.794] debug2: StorageUser       = scotthutch
+[2000-12-31T23:00:12.794] debug2: TCPTimeout        = 2
+[2000-12-31T23:00:12.795] debug2: TrackWCKey        = 0
+[2000-12-31T23:00:12.795] debug2: TrackSlurmctldDown= 0
+[2000-12-31T23:00:12.795] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:00:12.797] debug2: SIM: sim_getuid: starting search for username root
+[2000-12-31T23:00:12.798] debug2: SIM: sim_getuid: found uid 0 for username root
+[2000-12-31T23:00:12.798] debug2: SIM: sim_getuid--name: root uid: 0
+[2000-12-31T23:00:12.798] debug:  SIM: Found uid 0 for name root
+[2000-12-31T23:00:12.798] slurmdbd version 17.02.2 started
+[2000-12-31T23:00:12.799] debug4: got 0 commits
+[2000-12-31T23:00:12.799] debug2: running rollup at Sun Dec 31 23:00:12 2000
+[2000-12-31T23:00:12.800] debug2: Everything rolled up
+[2000-12-31T23:00:12.800] debug4: got 0 commits
+[2000-12-31T23:00:12.800] error: Error binding slurm stream socket: Address already in use
+[2000-12-31T23:00:12.800] fatal: slurm_init_msg_engine_port error Address already in use
+[2000-12-31T23:00:00.007] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.008] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.010] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.010] debug3: Success.
+[2000-12-31T23:00:00.010] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.041] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:00.075] debug:  Database slurmdb_beocat not created.  Creating
+[2000-12-31T23:00:01.119] debug4: Table cluster_table doesn't exist, adding
+[2000-12-31T23:00:01.518] debug4: Table txn_table doesn't exist, adding
+[2000-12-31T23:00:02.491] debug4: Table tres_table doesn't exist, adding
+[2000-12-31T23:00:02.615] debug4: Table acct_coord_table doesn't exist, adding
+[2000-12-31T23:00:03.710] debug4: Table acct_table doesn't exist, adding
+[2000-12-31T23:00:04.194] debug4: Table res_table doesn't exist, adding
+[2000-12-31T23:00:04.612] debug4: Table clus_res_table doesn't exist, adding
+[2000-12-31T23:00:05.663] debug4: Table qos_table doesn't exist, adding
+[2000-12-31T23:00:06.066] debug4: Table user_table doesn't exist, adding
+[2000-12-31T23:00:07.100] debug4: Table federation_table doesn't exist, adding
+[2000-12-31T23:00:07.148] Accounting storage MYSQL plugin loaded
+[2000-12-31T23:00:07.148] debug3: Success.
+[2000-12-31T23:00:07.150] pidfile not locked, assuming no running daemon
+[2000-12-31T23:00:07.150] error: Unable to open pidfile `/home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid': Read-only file system
+[2000-12-31T23:00:07.150] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:07.151] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:07.151] debug2: ArchiveDir        = /tmp
+[2000-12-31T23:00:07.151] debug2: ArchiveScript     = (null)
+[2000-12-31T23:00:07.151] debug2: AuthInfo          = (null)
+[2000-12-31T23:00:07.151] debug2: AuthType          = auth/none
+[2000-12-31T23:00:07.152] debug2: CommitDelay       = 0
+[2000-12-31T23:00:07.152] debug2: DbdAddr           = localhost
+[2000-12-31T23:00:07.152] debug2: DbdBackupHost     = (null)
+[2000-12-31T23:00:07.152] debug2: DbdHost           = localhost
+[2000-12-31T23:00:07.153] debug2: DbdPort           = 12345
+[2000-12-31T23:00:07.153] debug2: DebugFlags        = (null)
+[2000-12-31T23:00:07.153] debug2: DebugLevel        = 8
+[2000-12-31T23:00:07.153] debug2: DefaultQOS        = (null)
+[2000-12-31T23:00:07.153] debug2: LogFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurmdbd.log
+[2000-12-31T23:00:07.153] debug2: MessageTimeout    = 10
+[2000-12-31T23:00:07.153] debug2: PidFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid
+[2000-12-31T23:00:07.153] debug2: PluginDir         = /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm
+[2000-12-31T23:00:07.154] debug2: PrivateData       = accounts,jobs,reservations,usage,users
+[2000-12-31T23:00:07.154] debug2: PurgeEventAfter   = NONE
+[2000-12-31T23:00:07.154] debug2: PurgeJobAfter     = NONE
+[2000-12-31T23:00:07.154] debug2: PurgeResvAfter    = NONE
+[2000-12-31T23:00:07.154] debug2: PurgeStepAfter    = NONE
+[2000-12-31T23:00:07.154] debug2: PurgeSuspendAfter = NONE
+[2000-12-31T23:00:07.154] debug2: PurgeTXNAfter = NONE
+[2000-12-31T23:00:07.154] debug2: PurgeUsageAfter = NONE
+[2000-12-31T23:00:07.154] debug2: SlurmUser         = scotthutch(4020)
+[2000-12-31T23:00:07.154] debug2: StorageBackupHost = (null)
+[2000-12-31T23:00:07.154] debug2: StorageHost       = localhost
+[2000-12-31T23:00:07.154] debug2: StorageLoc        = slurmdb_beocat
+[2000-12-31T23:00:07.155] debug2: StoragePort       = 3306
+[2000-12-31T23:00:07.155] debug2: StorageType       = accounting_storage/mysql
+[2000-12-31T23:00:07.155] debug2: StorageUser       = scotthutch
+[2000-12-31T23:00:07.155] debug2: TCPTimeout        = 2
+[2000-12-31T23:00:07.155] debug2: TrackWCKey        = 0
+[2000-12-31T23:00:07.155] debug2: TrackSlurmctldDown= 0
+[2000-12-31T23:00:07.155] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:00:07.158] debug2: SIM: sim_getuid: starting search for username root
+[2000-12-31T23:00:07.158] debug2: SIM: sim_getuid: found uid 0 for username root
+[2000-12-31T23:00:07.158] debug2: SIM: sim_getuid--name: root uid: 0
+[2000-12-31T23:00:07.158] debug:  SIM: Found uid 0 for name root
+[2000-12-31T23:00:07.159] slurmdbd version 17.02.2 started
+[2000-12-31T23:00:07.159] debug4: got 0 commits
+[2000-12-31T23:00:07.160] debug2: running rollup at Sun Dec 31 23:00:07 2000
+[2000-12-31T23:00:07.160] debug2: Everything rolled up
+[2000-12-31T23:00:07.160] debug4: got 0 commits
+[2000-12-31T23:00:07.160] error: Error binding slurm stream socket: Address already in use
+[2000-12-31T23:00:07.161] fatal: slurm_init_msg_engine_port error Address already in use
+[2000-12-31T23:00:00.006] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.008] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.011] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.011] debug3: Success.
+[2000-12-31T23:00:00.012] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.174] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:00.219] error: mysql_real_connect failed: 1045 Access denied for user 'scotthutch'@'localhost' (using password: YES)
+[2000-12-31T23:00:00.220] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:05.220] error: mysql_real_connect failed: 1045 Access denied for user 'scotthutch'@'localhost' (using password: YES)
+[2000-12-31T23:00:05.221] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:10.221] error: mysql_real_connect failed: 1045 Access denied for user 'scotthutch'@'localhost' (using password: YES)
+[2000-12-31T23:00:10.222] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:00.000] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.003] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.004] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.004] debug3: Success.
+[2000-12-31T23:00:00.004] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.009] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:00.014] debug:  Database slurmdb_beocat not created.  Creating
+[2000-12-31T23:00:00.341] debug4: Table cluster_table doesn't exist, adding
+[2000-12-31T23:00:01.746] debug4: Table txn_table doesn't exist, adding
+[2000-12-31T23:00:02.870] debug4: Table tres_table doesn't exist, adding
+[2000-12-31T23:00:03.570] debug4: Table acct_coord_table doesn't exist, adding
+[2000-12-31T23:00:04.226] debug4: Table acct_table doesn't exist, adding
+[2000-12-31T23:00:04.316] debug4: Table res_table doesn't exist, adding
+[2000-12-31T23:00:05.093] debug4: Table clus_res_table doesn't exist, adding
+[2000-12-31T23:00:06.638] debug4: Table qos_table doesn't exist, adding
+[2000-12-31T23:00:06.704] debug4: Table user_table doesn't exist, adding
+[2000-12-31T23:00:06.744] debug4: Table federation_table doesn't exist, adding
+[2000-12-31T23:00:07.042] Accounting storage MYSQL plugin loaded
+[2000-12-31T23:00:07.043] debug3: Success.
+[2000-12-31T23:00:07.063] pidfile not locked, assuming no running daemon
+[2000-12-31T23:00:07.064] error: Unable to open pidfile `/home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid': Read-only file system
+[2000-12-31T23:00:07.064] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:07.064] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:07.064] debug2: ArchiveDir        = /tmp
+[2000-12-31T23:00:07.065] debug2: ArchiveScript     = (null)
+[2000-12-31T23:00:07.065] debug2: AuthInfo          = (null)
+[2000-12-31T23:00:07.065] debug2: AuthType          = auth/none
+[2000-12-31T23:00:07.065] debug2: CommitDelay       = 0
+[2000-12-31T23:00:07.065] debug2: DbdAddr           = localhost
+[2000-12-31T23:00:07.066] debug2: DbdBackupHost     = (null)
+[2000-12-31T23:00:07.066] debug2: DbdHost           = localhost
+[2000-12-31T23:00:07.066] debug2: DbdPort           = 29001
+[2000-12-31T23:00:07.066] debug2: DebugFlags        = (null)
+[2000-12-31T23:00:07.066] debug2: DebugLevel        = 8
+[2000-12-31T23:00:07.067] debug2: DefaultQOS        = (null)
+[2000-12-31T23:00:07.067] debug2: LogFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurmdbd.log
+[2000-12-31T23:00:07.067] debug2: MessageTimeout    = 10
+[2000-12-31T23:00:07.067] debug2: PidFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid
+[2000-12-31T23:00:07.067] debug2: PluginDir         = /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm
+[2000-12-31T23:00:07.067] debug2: PrivateData       = accounts,jobs,reservations,usage,users
+[2000-12-31T23:00:07.067] debug2: PurgeEventAfter   = NONE
+[2000-12-31T23:00:07.067] debug2: PurgeJobAfter     = NONE
+[2000-12-31T23:00:07.067] debug2: PurgeResvAfter    = NONE
+[2000-12-31T23:00:07.068] debug2: PurgeStepAfter    = NONE
+[2000-12-31T23:00:07.068] debug2: PurgeSuspendAfter = NONE
+[2000-12-31T23:00:07.068] debug2: PurgeTXNAfter = NONE
+[2000-12-31T23:00:07.068] debug2: PurgeUsageAfter = NONE
+[2000-12-31T23:00:07.068] debug2: SlurmUser         = scotthutch(4020)
+[2000-12-31T23:00:07.068] debug2: StorageBackupHost = (null)
+[2000-12-31T23:00:07.068] debug2: StorageHost       = localhost
+[2000-12-31T23:00:07.068] debug2: StorageLoc        = slurmdb_beocat
+[2000-12-31T23:00:07.068] debug2: StoragePort       = 3306
+[2000-12-31T23:00:07.068] debug2: StorageType       = accounting_storage/mysql
+[2000-12-31T23:00:07.068] debug2: StorageUser       = scotthutch
+[2000-12-31T23:00:07.068] debug2: TCPTimeout        = 2
+[2000-12-31T23:00:07.069] debug2: TrackWCKey        = 0
+[2000-12-31T23:00:07.069] debug2: TrackSlurmctldDown= 0
+[2000-12-31T23:00:07.069] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:00:07.071] debug2: SIM: sim_getuid: starting search for username root
+[2000-12-31T23:00:07.071] debug2: SIM: sim_getuid: found uid 0 for username root
+[2000-12-31T23:00:07.071] debug2: SIM: sim_getuid--name: root uid: 0
+[2000-12-31T23:00:07.072] debug:  SIM: Found uid 0 for name root
+[2000-12-31T23:00:07.072] slurmdbd version 17.02.2 started
+[2000-12-31T23:00:07.072] debug4: got 0 commits
+[2000-12-31T23:00:07.073] debug2: running rollup at Sun Dec 31 23:00:07 2000
+[2000-12-31T23:00:07.073] debug2: Everything rolled up
+[2000-12-31T23:00:07.073] debug4: got 0 commits
+[2000-12-31T23:00:19.068] Terminate signal (SIGINT or SIGTERM) received
+[2000-12-31T23:00:19.068] debug:  rpc_mgr shutting down
+[2000-12-31T23:00:19.069] debug4: got 0 commits
+[2000-12-31T23:00:19.069] debug4: got 0 commits
+[2000-12-31T23:00:19.069] Unable to remove pidfile '/home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid': Read-only file system
+[2000-12-31T23:00:19.070] debug3: starting mysql cleaning up
+[2000-12-31T23:00:19.070] debug3: finished mysql cleaning up
+[2000-12-31T23:00:00.006] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.008] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.010] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.010] debug3: Success.
+[2000-12-31T23:00:00.010] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.024] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:01.280] Accounting storage MYSQL plugin loaded
+[2000-12-31T23:00:01.280] debug3: Success.
+[2000-12-31T23:00:01.283] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:01.283] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:01.284] debug2: ArchiveDir        = /tmp
+[2000-12-31T23:00:01.284] debug2: ArchiveScript     = (null)
+[2000-12-31T23:00:01.284] debug2: AuthInfo          = (null)
+[2000-12-31T23:00:01.284] debug2: AuthType          = auth/none
+[2000-12-31T23:00:01.284] debug2: CommitDelay       = 0
+[2000-12-31T23:00:01.284] debug2: DbdAddr           = localhost
+[2000-12-31T23:00:01.284] debug2: DbdBackupHost     = (null)
+[2000-12-31T23:00:01.285] debug2: DbdHost           = localhost
+[2000-12-31T23:00:01.285] debug2: DbdPort           = 29001
+[2000-12-31T23:00:01.285] debug2: DebugFlags        = (null)
+[2000-12-31T23:00:01.285] debug2: DebugLevel        = 8
+[2000-12-31T23:00:01.285] debug2: DefaultQOS        = (null)
+[2000-12-31T23:00:01.285] debug2: LogFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurmdbd.log
+[2000-12-31T23:00:01.285] debug2: MessageTimeout    = 10
+[2000-12-31T23:00:01.285] debug2: PidFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid
+[2000-12-31T23:00:01.285] debug2: PluginDir         = /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm
+[2000-12-31T23:00:01.285] debug2: PrivateData       = accounts,jobs,reservations,usage,users
+[2000-12-31T23:00:01.286] debug2: PurgeEventAfter   = NONE
+[2000-12-31T23:00:01.286] debug2: PurgeJobAfter     = NONE
+[2000-12-31T23:00:01.286] debug2: PurgeResvAfter    = NONE
+[2000-12-31T23:00:01.286] debug2: PurgeStepAfter    = NONE
+[2000-12-31T23:00:01.286] debug2: PurgeSuspendAfter = NONE
+[2000-12-31T23:00:01.286] debug2: PurgeTXNAfter = NONE
+[2000-12-31T23:00:01.286] debug2: PurgeUsageAfter = NONE
+[2000-12-31T23:00:01.286] debug2: SlurmUser         = scotthutch(4020)
+[2000-12-31T23:00:01.286] debug2: StorageBackupHost = (null)
+[2000-12-31T23:00:01.286] debug2: StorageHost       = localhost
+[2000-12-31T23:00:01.287] debug2: StorageLoc        = slurmdb_beocat
+[2000-12-31T23:00:01.287] debug2: StoragePort       = 3306
+[2000-12-31T23:00:01.287] debug2: StorageType       = accounting_storage/mysql
+[2000-12-31T23:00:01.287] debug2: StorageUser       = scotthutch
+[2000-12-31T23:00:01.287] debug2: TCPTimeout        = 2
+[2000-12-31T23:00:01.287] debug2: TrackWCKey        = 0
+[2000-12-31T23:00:01.287] debug2: TrackSlurmctldDown= 0
+[2000-12-31T23:00:01.287] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:00:01.292] debug2: SIM: sim_getuid: starting search for username root
+[2000-12-31T23:00:01.292] debug2: SIM: sim_getuid: found uid 0 for username root
+[2000-12-31T23:00:01.292] debug2: SIM: sim_getuid--name: root uid: 0
+[2000-12-31T23:00:01.292] debug:  SIM: Found uid 0 for name root
+[2000-12-31T23:00:01.293] slurmdbd version 17.02.2 started
+[2000-12-31T23:00:01.293] debug4: got 0 commits
+[2000-12-31T23:00:01.294] debug2: running rollup at Sun Dec 31 23:00:01 2000
+[2000-12-31T23:00:01.294] debug2: Everything rolled up
+[2000-12-31T23:00:01.294] debug4: got 0 commits
+[2000-12-31T23:00:59.026] debug2: Opened connection 8 from 127.0.0.1
+[2000-12-31T23:00:59.026] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:00:59.026] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:01:06.705] debug2: Closed connection 8 uid(4020)
+[2000-12-31T23:01:06.705] debug4: got 0 commits
+[2000-12-31T23:01:40.343] debug2: Opened connection 9 from 127.0.0.1
+[2000-12-31T23:01:40.343] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:9
+[2000-12-31T23:01:40.343] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:01:40.385] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:01:40.385] debug4: got 0 commits
+[2000-12-31T23:01:40.465] debug2: DBD_GET_CLUSTERS: called
+[2000-12-31T23:01:40.506] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:01:40.506] debug4: got 0 commits
+[2000-12-31T23:01:40.507] debug2: persistant connection is closed
+[2000-12-31T23:01:40.507] debug2: Closed connection 9 uid(4020)
+[2000-12-31T23:01:50.719] debug2: Opened connection 8 from 127.0.0.1
+[2000-12-31T23:01:50.719] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:01:50.720] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:01:50.761] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:01:50.761] debug4: got 0 commits
+[2000-12-31T23:01:50.841] debug2: DBD_GET_USERS: called
+[2000-12-31T23:01:50.843] debug4: This could happen often and is expected.
+mysql_query failed: 1146 Table 'slurmdb_beocat.beocat_assoc_table' doesn't exist
+select distinct t1.id_assoc, t1.lft, t1.rgt, t1.user, t1.acct, t1.`partition`, t1.shares, t1.grp_tres_mins, t1.grp_tres_run_mins, t1.grp_tres, t1.grp_jobs, t1.grp_submit_jobs, t1.grp_wall, t1.max_tres_mins_pj, t1.max_tres_run_mins, t1.max_tres_pj, t1.max_tres_pn, t1.max_jobs, t1.max_submit_jobs, t1.max_wall_pj, t1.parent_acct, t1.def_qos_id, t1.qos, t1.delta_qos, t1.is_def from "beocat_assoc_table" as t1 where t1.deleted=0 && (t1.is_def=1) && (t1.user!='') order by lft;
+[2000-12-31T23:01:50.844] debug4: This could happen often and is expected.
+mysql_query failed: 1146 Table 'slurmdb_beocat.beocat_wckey_table' doesn't exist
+select distinct t1.id_wckey, t1.is_def, t1.wckey_name, t1.user from "beocat_wckey_table" as t1 where t1.deleted=0 && (t1.is_def=1) order by wckey_name, user;
+[2000-12-31T23:01:50.885] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:01:50.885] debug4: got 0 commits
+[2000-12-31T23:01:50.886] debug2: persistant connection is closed
+[2000-12-31T23:01:50.886] debug2: Closed connection 8 uid(4020)
+[2000-12-31T23:02:46.431] debug2: Opened connection 9 from 127.0.0.1
+[2000-12-31T23:02:46.431] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:9
+[2000-12-31T23:02:46.432] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:02:46.567] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:02:46.568] debug4: got 0 commits
+[2000-12-31T23:02:51.657] debug2: DBD_MODIFY_QOS: called
+[2000-12-31T23:02:51.658] debug4: XXX: update object with type 11 added
+[2000-12-31T23:02:51.658] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:02:51.920] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:02:51.920] debug4: got 1 commits
+[2000-12-31T23:02:51.924] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:02:51.925] debug4: got 0 commits
+[2000-12-31T23:02:51.925] debug2: persistant connection is closed
+[2000-12-31T23:02:51.925] debug2: Closed connection 9 uid(4020)
+[2000-12-31T23:02:57.271] debug2: Opened connection 8 from 127.0.0.1
+[2000-12-31T23:02:57.271] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:02:57.271] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:02:57.312] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:02:57.312] debug4: got 0 commits
+[2000-12-31T23:02:59.953] debug2: DBD_MODIFY_QOS: called
+[2000-12-31T23:02:59.953] debug4: XXX: update object with type 11 added
+[2000-12-31T23:02:59.954] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:03:02.020] debug2: DBD_FINI: CLOSE:0 COMMIT:1
+[2000-12-31T23:03:02.020] debug4: got 1 commits
+[2000-12-31T23:03:02.024] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:03:02.024] debug4: got 0 commits
+[2000-12-31T23:03:02.025] debug2: persistant connection is closed
+[2000-12-31T23:03:02.025] debug2: Closed connection 8 uid(4020)
+[2000-12-31T23:03:13.427] debug2: Opened connection 9 from 127.0.0.1
+[2000-12-31T23:03:13.427] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:9
+[2000-12-31T23:03:13.427] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:03:13.468] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:03:13.468] debug4: got 0 commits
+[2000-12-31T23:03:13.548] debug2: DBD_GET_QOS: called
+[2000-12-31T23:03:13.630] debug2: DBD_ADD_QOS: called
+[2000-12-31T23:03:13.630] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:03:13.631] debug4: query
+insert into txn_table (timestamp, action, name, actor, info) values (978325393, 1447, 'supporters', 'scotthutch', 'mod_time=978325393, description=\'supporters\', flags=0, grace_time=0, grp_jobs=NULL, grp_submit_jobs=NULL, grp_wall=NULL, max_jobs_pa=NULL, max_jobs_per_user=NULL, max_submit_jobs_pa=NULL, max_submit_jobs_per_user=NULL, max_wall_duration_per_job=NULL, preempt_mode=0, priority=100, usage_factor=1.000000, usage_thres=NULL');
+[2000-12-31T23:03:13.631] debug4: XXX: update object with type 9 added
+[2000-12-31T23:03:13.711] debug2: DBD_FINI: CLOSE:0 COMMIT:1
+[2000-12-31T23:03:13.711] debug4: got 1 commits
+[2000-12-31T23:03:13.774] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:03:13.775] debug4: got 0 commits
+[2000-12-31T23:03:13.775] debug2: persistant connection is closed
+[2000-12-31T23:03:13.775] debug2: Closed connection 9 uid(4020)
+[2000-12-31T23:03:25.767] debug2: Opened connection 8 from 127.0.0.1
+[2000-12-31T23:03:25.767] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:03:25.768] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:03:25.809] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:03:25.809] debug4: got 0 commits
+[2000-12-31T23:03:25.889] debug2: DBD_GET_QOS: called
+[2000-12-31T23:03:25.970] debug2: DBD_GET_CLUSTERS: called
+[2000-12-31T23:03:26.051] debug2: DBD_ADD_CLUSTERS: called
+[2000-12-31T23:03:26.051] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:03:27.828] debug4: Table "beocat_assoc_table" doesn't exist, adding
+[2000-12-31T23:03:29.167] debug4: Table "beocat_assoc_usage_day_table" doesn't exist, adding
+[2000-12-31T23:03:30.342] debug4: Table "beocat_assoc_usage_hour_table" doesn't exist, adding
+[2000-12-31T23:03:30.714] debug4: Table "beocat_assoc_usage_month_table" doesn't exist, adding
+[2000-12-31T23:03:30.967] debug4: Table "beocat_usage_day_table" doesn't exist, adding
+[2000-12-31T23:03:31.068] debug4: Table "beocat_usage_hour_table" doesn't exist, adding
+[2000-12-31T23:03:31.752] debug4: Table "beocat_usage_month_table" doesn't exist, adding
+[2000-12-31T23:03:31.835] debug4: Table "beocat_event_table" doesn't exist, adding
+[2000-12-31T23:03:40.331] debug4: Table "beocat_job_table" doesn't exist, adding
+[2000-12-31T23:03:41.405] debug4: Table "beocat_last_ran_table" doesn't exist, adding
+[2000-12-31T23:03:42.814] debug4: Table "beocat_resv_table" doesn't exist, adding
+[2000-12-31T23:03:43.919] debug4: Table "beocat_step_table" doesn't exist, adding
+[2000-12-31T23:03:47.365] debug4: Table "beocat_suspend_table" doesn't exist, adding
+[2000-12-31T23:03:49.948] debug4: Table "beocat_wckey_table" doesn't exist, adding
+[2000-12-31T23:03:50.482] debug4: Table "beocat_wckey_usage_day_table" doesn't exist, adding
+[2000-12-31T23:03:50.549] debug4: Table "beocat_wckey_usage_hour_table" doesn't exist, adding
+[2000-12-31T23:03:50.593] debug4: Table "beocat_wckey_usage_month_table" doesn't exist, adding
+[2000-12-31T23:03:50.596] debug4: 8(as_mysql_cluster.c:385) query
+insert into txn_table (timestamp, action, name, actor, info) values (978325406, 1405, 'beocat', 'scotthutch', 'mod_time=978325406, shares=1, grp_jobs=NULL, grp_submit_jobs=NULL, grp_wall=NULL, max_jobs=NULL, max_submit_jobs=NULL, max_wall_pj=NULL, def_qos_id=NULL, qos=\',1,3,\'');
+[2000-12-31T23:03:50.596] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:03:50.598] debug4: 8(as_mysql_assoc.c:624) query
+select id_assoc from "beocat_assoc_table" where user='' and deleted = 0 and acct='root';
+[2000-12-31T23:03:50.601] debug4: 8(as_mysql_assoc.c:703) query
+call get_parent_limits('assoc_table', 'root', 'beocat', 0); select @par_id, @mj, @msj, @mwpj, @mtpj, @mtpn, @mtmpj, @mtrm, @def_qos_id, @qos, @delta_qos;
+[2000-12-31T23:03:50.603] debug4: 8(as_mysql_assoc.c:658) query
+select lft, rgt from "beocat_assoc_table" where id_assoc=2;
+[2000-12-31T23:03:50.603] debug4: XXX: update object with type 2 added
+[2000-12-31T23:03:50.604] debug4: 8(as_mysql_assoc.c:369) query
+select distinct is_def, acct from "beocat_assoc_table" where user='root' FOR UPDATE;
+[2000-12-31T23:03:50.605] debug4: 8(as_mysql_assoc.c:2864) query
+insert into txn_table (timestamp, action, name, actor, info, cluster) values (978325430, 1404, 'id_assoc=2', 'scotthutch', 'mod_time=978325430, acct=\'root\', user=\'root\', `partition`=\'\', shares=1, grp_jobs=NULL, grp_submit_jobs=NULL, grp_wall=NULL, is_def=1, max_jobs=NULL, max_submit_jobs=NULL, max_wall_pj=NULL, def_qos_id=NULL, qos=\'\', delta_qos=\'\'', 'beocat');
+[2000-12-31T23:03:50.645] debug2: DBD_FINI: CLOSE:0 COMMIT:1
+[2000-12-31T23:03:50.645] debug4: got 1 commits
+[2000-12-31T23:03:50.723] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:03:50.724] debug4: got 0 commits
+[2000-12-31T23:03:50.724] debug2: persistant connection is closed
+[2000-12-31T23:03:50.724] debug2: Closed connection 8 uid(4020)
+[2000-12-31T23:04:06.983] debug2: Opened connection 9 from 127.0.0.1
+[2000-12-31T23:04:06.984] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:9
+[2000-12-31T23:04:06.984] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:04:07.026] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:04:07.026] debug4: got 0 commits
+[2000-12-31T23:04:07.106] debug2: DBD_GET_QOS: called
+[2000-12-31T23:04:07.187] debug2: DBD_GET_CLUSTERS: called
+[2000-12-31T23:04:07.229] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:04:07.229] debug4: got 0 commits
+[2000-12-31T23:04:07.229] debug2: persistant connection is closed
+[2000-12-31T23:04:07.230] debug2: Closed connection 9 uid(4020)
+[2000-12-31T23:05:06.962] Terminate signal (SIGINT or SIGTERM) received
+[2000-12-31T23:05:06.962] debug:  rpc_mgr shutting down
+[2000-12-31T23:05:06.962] debug4: got 0 commits
+[2000-12-31T23:05:06.963] debug4: got 0 commits
+[2000-12-31T23:05:06.964] debug3: starting mysql cleaning up
+[2000-12-31T23:05:06.964] debug3: finished mysql cleaning up
+[2000-12-31T23:00:00.006] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.048] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:01.900] Accounting storage MYSQL plugin loaded
+[2000-12-31T23:00:01.902] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:01.902] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:01.926] debug:  SIM: Found uid 0 for name root
+[2000-12-31T23:00:01.926] slurmdbd version 17.02.2 started
+[2000-12-31T23:00:01.930] debug:  Cluster beocat not registered, not doing rollup
+[2000-12-31T23:00:05.150] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:00:05.307] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:06.220] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:06.221] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:06.715] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:06.716] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:07.289] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:07.290] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:07.559] debug:  SIM: Found uid 1001 for name user1
+[2000-12-31T23:00:08.004] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:08.004] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:08.091] debug:  SIM: Found uid 1002 for name user2
+[2000-12-31T23:00:08.576] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:08.577] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:08.666] debug:  SIM: Found uid 1003 for name user3
+[2000-12-31T23:00:09.150] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:09.150] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:09.237] debug:  SIM: Found uid 1004 for name user4
+[2000-12-31T23:00:09.721] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:09.722] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:09.810] debug:  SIM: Found uid 1005 for name user5
+[2000-12-31T23:00:10.140] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:12.461] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:9
+[2000-12-31T23:00:13.469] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:13.559] debug:  We don't have an entry for this machine beocat most likely a first time running.
+[2000-12-31T23:00:38.806] debug:  cluster beocat has disconnected
+[2000-12-31T23:00:00.007] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.030] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/auth_none.so
+[2000-12-31T23:00:00.045] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.045] debug3: Success.
+[2000-12-31T23:00:00.046] debug3: Trying to load plugin /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm/accounting_storage_mysql.so
+[2000-12-31T23:00:00.227] debug2: mysql_connect() called for db slurmdb_beocat
+[2000-12-31T23:00:00.260] debug:  Database slurmdb_beocat not created.  Creating
+[2000-12-31T23:00:02.021] debug4: Table cluster_table doesn't exist, adding
+[2000-12-31T23:00:03.216] debug4: Table txn_table doesn't exist, adding
+[2000-12-31T23:00:04.406] debug4: Table tres_table doesn't exist, adding
+[2000-12-31T23:00:07.367] debug4: Table acct_coord_table doesn't exist, adding
+[2000-12-31T23:00:09.489] debug4: Table acct_table doesn't exist, adding
+[2000-12-31T23:00:11.683] debug4: Table res_table doesn't exist, adding
+[2000-12-31T23:00:12.702] debug4: Table clus_res_table doesn't exist, adding
+[2000-12-31T23:00:13.627] debug4: Table qos_table doesn't exist, adding
+[2000-12-31T23:00:15.015] debug4: Table user_table doesn't exist, adding
+[2000-12-31T23:00:15.702] debug4: Table federation_table doesn't exist, adding
+[2000-12-31T23:00:15.925] Accounting storage MYSQL plugin loaded
+[2000-12-31T23:00:15.926] debug3: Success.
+[2000-12-31T23:00:15.927] pidfile not locked, assuming no running daemon
+[2000-12-31T23:00:15.933] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:15.933] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:15.933] debug2: ArchiveDir        = /tmp
+[2000-12-31T23:00:15.933] debug2: ArchiveScript     = (null)
+[2000-12-31T23:00:15.933] debug2: AuthInfo          = (null)
+[2000-12-31T23:00:15.934] debug2: AuthType          = auth/none
+[2000-12-31T23:00:15.934] debug2: CommitDelay       = 0
+[2000-12-31T23:00:15.934] debug2: DbdAddr           = localhost
+[2000-12-31T23:00:15.934] debug2: DbdBackupHost     = (null)
+[2000-12-31T23:00:15.934] debug2: DbdHost           = localhost
+[2000-12-31T23:00:15.934] debug2: DbdPort           = 29001
+[2000-12-31T23:00:15.934] debug2: DebugFlags        = (null)
+[2000-12-31T23:00:15.934] debug2: DebugLevel        = 8
+[2000-12-31T23:00:15.934] debug2: DefaultQOS        = (null)
+[2000-12-31T23:00:15.934] debug2: LogFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurmdbd.log
+[2000-12-31T23:00:15.935] debug2: MessageTimeout    = 10
+[2000-12-31T23:00:15.935] debug2: PidFile           = /home/slurm/slurm_sim_ws/sim/micro/baseline/var/run/slurmdbd.pid
+[2000-12-31T23:00:15.935] debug2: PluginDir         = /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm
+[2000-12-31T23:00:15.935] debug2: PrivateData       = accounts,jobs,reservations,usage,users
+[2000-12-31T23:00:15.935] debug2: PurgeEventAfter   = NONE
+[2000-12-31T23:00:15.935] debug2: PurgeJobAfter     = NONE
+[2000-12-31T23:00:15.935] debug2: PurgeResvAfter    = NONE
+[2000-12-31T23:00:15.935] debug2: PurgeStepAfter    = NONE
+[2000-12-31T23:00:15.935] debug2: PurgeSuspendAfter = NONE
+[2000-12-31T23:00:15.935] debug2: PurgeTXNAfter = NONE
+[2000-12-31T23:00:15.936] debug2: PurgeUsageAfter = NONE
+[2000-12-31T23:00:15.936] debug2: SlurmUser         = scotthutch(4020)
+[2000-12-31T23:00:15.936] debug2: StorageBackupHost = (null)
+[2000-12-31T23:00:15.936] debug2: StorageHost       = localhost
+[2000-12-31T23:00:15.936] debug2: StorageLoc        = slurmdb_beocat
+[2000-12-31T23:00:15.936] debug2: StoragePort       = 3306
+[2000-12-31T23:00:15.936] debug2: StorageType       = accounting_storage/mysql
+[2000-12-31T23:00:15.936] debug2: StorageUser       = scotthutch
+[2000-12-31T23:00:15.936] debug2: TCPTimeout        = 2
+[2000-12-31T23:00:15.936] debug2: TrackWCKey        = 0
+[2000-12-31T23:00:15.936] debug2: TrackSlurmctldDown= 0
+[2000-12-31T23:00:15.937] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:00:15.939] debug2: SIM: sim_getuid: starting search for username root
+[2000-12-31T23:00:15.939] debug2: SIM: sim_getuid: found uid 0 for username root
+[2000-12-31T23:00:15.939] debug2: SIM: sim_getuid--name: root uid: 0
+[2000-12-31T23:00:15.940] debug:  SIM: Found uid 0 for name root
+[2000-12-31T23:00:15.940] slurmdbd version 17.02.2 started
+[2000-12-31T23:00:15.941] debug4: got 0 commits
+[2000-12-31T23:00:15.941] debug2: running rollup at Sun Dec 31 23:00:15 2000
+[2000-12-31T23:00:15.941] debug2: Everything rolled up
+[2000-12-31T23:00:15.942] debug4: got 0 commits
+[2000-12-31T23:01:49.622] debug2: Opened connection 8 from 127.0.0.1
+[2000-12-31T23:01:49.622] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:01:49.622] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:01:49.664] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:01:49.664] debug4: got 0 commits
+[2000-12-31T23:01:49.746] debug2: DBD_MODIFY_QOS: called
+[2000-12-31T23:01:49.747] debug4: XXX: update object with type 11 added
+[2000-12-31T23:01:49.747] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:01:49.828] debug2: DBD_FINI: CLOSE:0 COMMIT:1
+[2000-12-31T23:01:49.828] debug4: got 1 commits
+[2000-12-31T23:01:50.101] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:01:50.101] debug4: got 0 commits
+[2000-12-31T23:01:50.102] debug2: persistant connection is closed
+[2000-12-31T23:01:50.102] debug2: Closed connection 8 uid(4020)
+[2000-12-31T23:02:23.479] debug2: Opened connection 9 from 127.0.0.1
+[2000-12-31T23:02:23.479] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:9
+[2000-12-31T23:02:23.480] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:02:23.521] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:02:23.522] debug4: got 0 commits
+[2000-12-31T23:02:23.601] debug2: DBD_GET_QOS: called
+[2000-12-31T23:02:23.682] debug2: DBD_ADD_QOS: called
+[2000-12-31T23:02:23.683] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:02:23.684] debug4: query
+insert into txn_table (timestamp, action, name, actor, info) values (978325343, 1447, 'supporters', 'scotthutch', 'mod_time=978325343, description=\'supporters\', flags=0, grace_time=0, grp_jobs=NULL, grp_submit_jobs=NULL, grp_wall=NULL, max_jobs_pa=NULL, max_jobs_per_user=NULL, max_submit_jobs_pa=NULL, max_submit_jobs_per_user=NULL, max_wall_duration_per_job=NULL, preempt_mode=0, priority=100, usage_factor=1.000000, usage_thres=NULL');
+[2000-12-31T23:02:23.684] debug4: XXX: update object with type 9 added
+[2000-12-31T23:02:23.764] debug2: DBD_FINI: CLOSE:0 COMMIT:1
+[2000-12-31T23:02:23.764] debug4: got 1 commits
+[2000-12-31T23:02:23.937] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:02:23.937] debug4: got 0 commits
+[2000-12-31T23:02:23.938] debug2: persistant connection is closed
+[2000-12-31T23:02:23.938] debug2: Closed connection 9 uid(4020)
+[2000-12-31T23:03:11.168] debug2: Opened connection 8 from 127.0.0.1
+[2000-12-31T23:03:11.169] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:03:11.169] debug2: acct_storage_p_get_connection: request new connection 1
+[2000-12-31T23:03:11.210] debug2: DBD_FINI: CLOSE:0 COMMIT:0
+[2000-12-31T23:03:11.211] debug4: got 0 commits
+[2000-12-31T23:03:11.290] debug2: DBD_GET_QOS: called
+[2000-12-31T23:03:11.370] debug2: DBD_GET_CLUSTERS: called
+[2000-12-31T23:03:11.451] debug2: DBD_ADD_CLUSTERS: called
+[2000-12-31T23:03:11.452] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:03:13.056] debug4: Table "beocat_assoc_table" doesn't exist, adding
+[2000-12-31T23:03:14.353] debug4: Table "beocat_assoc_usage_day_table" doesn't exist, adding
+[2000-12-31T23:03:15.414] debug4: Table "beocat_assoc_usage_hour_table" doesn't exist, adding
+[2000-12-31T23:03:16.736] debug4: Table "beocat_assoc_usage_month_table" doesn't exist, adding
+[2000-12-31T23:03:17.474] debug4: Table "beocat_usage_day_table" doesn't exist, adding
+[2000-12-31T23:03:19.066] debug4: Table "beocat_usage_hour_table" doesn't exist, adding
+[2000-12-31T23:03:19.366] debug4: Table "beocat_usage_month_table" doesn't exist, adding
+[2000-12-31T23:03:22.053] debug4: Table "beocat_event_table" doesn't exist, adding
+[2000-12-31T23:03:34.623] debug4: Table "beocat_job_table" doesn't exist, adding
+[2000-12-31T23:03:36.057] debug4: Table "beocat_last_ran_table" doesn't exist, adding
+[2000-12-31T23:03:37.418] debug4: Table "beocat_resv_table" doesn't exist, adding
+[2000-12-31T23:03:39.000] debug4: Table "beocat_step_table" doesn't exist, adding
+[2000-12-31T23:03:41.143] debug4: Table "beocat_suspend_table" doesn't exist, adding
+[2000-12-31T23:03:43.106] debug4: Table "beocat_wckey_table" doesn't exist, adding
+[2000-12-31T23:03:44.710] debug4: Table "beocat_wckey_usage_day_table" doesn't exist, adding
+[2000-12-31T23:03:45.645] debug4: Table "beocat_wckey_usage_hour_table" doesn't exist, adding
+[2000-12-31T23:03:47.094] debug4: Table "beocat_wckey_usage_month_table" doesn't exist, adding
+[2000-12-31T23:03:47.097] debug4: 8(as_mysql_cluster.c:385) query
+insert into txn_table (timestamp, action, name, actor, info) values (978325391, 1405, 'beocat', 'scotthutch', 'mod_time=978325391, shares=1, grp_jobs=NULL, grp_submit_jobs=NULL, grp_wall=NULL, max_jobs=NULL, max_submit_jobs=NULL, max_wall_pj=NULL, def_qos_id=NULL, qos=\',1,2,\'');
+[2000-12-31T23:03:47.098] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:03:47.099] debug4: 8(as_mysql_assoc.c:624) query
+select id_assoc from "beocat_assoc_table" where user='' and deleted = 0 and acct='root';
+[2000-12-31T23:03:47.536] debug4: 8(as_mysql_assoc.c:703) query
+call get_parent_limits('assoc_table', 'root', 'beocat', 0); select @par_id, @mj, @msj, @mwpj, @mtpj, @mtpn, @mtmpj, @mtrm, @def_qos_id, @qos, @delta_qos;
+[2000-12-31T23:03:47.538] debug4: 8(as_mysql_assoc.c:658) query
+select lft, rgt from "beocat_assoc_table" where id_assoc=2;
+[2000-12-31T23:03:47.538] debug4: XXX: update object with type 2 added
+[2000-12-31T23:03:47.540] debug4: 8(as_mysql_assoc.c:369) query
+select distinct is_def, acct from "beocat_assoc_table" where user='root' FOR UPDATE;
+[2000-12-31T23:03:47.541] debug4: 8(as_mysql_assoc.c:2864) query
+insert into txn_table (timestamp, action, name, actor, info, cluster) values (978325427, 1404, 'id_assoc=2', 'scotthutch', 'mod_time=978325427, acct=\'root\', user=\'root\', `partition`=\'\', shares=1, grp_jobs=NULL, grp_submit_jobs=NULL, grp_wall=NULL, is_def=1, max_jobs=NULL, max_submit_jobs=NULL, max_wall_pj=NULL, def_qos_id=NULL, qos=\'\', delta_qos=\'\'', 'beocat');
+[2000-12-31T23:03:47.581] debug2: DBD_FINI: CLOSE:0 COMMIT:1
+[2000-12-31T23:03:47.582] debug4: got 1 commits
+[2000-12-31T23:03:48.250] debug2: DBD_FINI: CLOSE:1 COMMIT:0
+[2000-12-31T23:03:48.250] debug4: got 0 commits
+[2000-12-31T23:03:48.251] debug2: persistant connection is closed
+[2000-12-31T23:03:48.251] debug2: Closed connection 8 uid(4020)
+[2000-12-31T23:06:20.545] Terminate signal (SIGINT or SIGTERM) received
+[2000-12-31T23:06:20.545] debug:  rpc_mgr shutting down
+[2000-12-31T23:06:20.545] debug4: got 0 commits
+[2000-12-31T23:06:20.546] debug4: got 0 commits
+[2000-12-31T23:06:20.548] debug3: starting mysql cleaning up
+[2000-12-31T23:06:20.548] debug3: finished mysql cleaning up
+[2000-12-31T23:00:00.001] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.002] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:01.061] Accounting storage MYSQL plugin loaded
+[2000-12-31T23:00:01.063] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:01.063] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:01.064] debug:  SIM: Found uid 0 for name root
+[2000-12-31T23:00:01.064] slurmdbd version 17.02.2 started
+[2000-12-31T23:00:01.067] debug:  Cluster beocat not registered, not doing rollup
+[2000-12-31T23:00:05.013] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:8
+[2000-12-31T23:00:05.150] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:06.093] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:06.094] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:07.124] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:07.125] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:08.247] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:08.248] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:08.784] debug:  SIM: Found uid 1001 for name user1
+[2000-12-31T23:00:09.228] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:09.228] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:09.371] debug:  SIM: Found uid 1002 for name user2
+[2000-12-31T23:00:09.879] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:10.291] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:10.546] debug:  SIM: Found uid 1003 for name user3
+[2000-12-31T23:00:10.989] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:10.989] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:11.520] debug:  SIM: Found uid 1004 for name user4
+[2000-12-31T23:00:11.964] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:11.964] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:12.139] debug:  SIM: Found uid 1005 for name user5
+[2000-12-31T23:00:12.345] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:15.117] debug:  REQUEST_PERSIST_INIT: CLUSTER:beocat VERSION:7936 UID:4020 IP:127.0.0.1 CONN:9
+[2000-12-31T23:00:16.117] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:16.270] debug:  We don't have an entry for this machine beocat most likely a first time running.
+[2000-12-31T23:00:39.234] debug:  cluster beocat has disconnected
+[2000-12-31T23:00:00.031] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.054] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.202] error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[2000-12-31T23:00:00.202] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:05.202] error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[2000-12-31T23:00:05.202] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:00.004] debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
+[2000-12-31T23:00:00.007] debug:  Null authentication plugin loaded
+[2000-12-31T23:00:00.031] error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[2000-12-31T23:00:00.031] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
+[2000-12-31T23:00:05.031] error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[2000-12-31T23:00:05.031] error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.

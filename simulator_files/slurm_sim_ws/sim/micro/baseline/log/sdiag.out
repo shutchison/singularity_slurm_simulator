@@ -1,0 +1,1180 @@
+*******************************************************
+sdiag output time: Sun Jan  1 00:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 14
+Jobs started:   14
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   1
+	Max cycle:    524
+	Total cycles: 45
+	Mean cycle:   68
+	Mean depth cycle:  0
+	Cycles per minute: 0
+	Last queue length: 0
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 0
+	Total backfilled jobs (since last stats cycle start): 0
+	Total cycles: 0
+	Last cycle when: Wed Dec 31 18:00:00 1969
+	Last cycle: 0
+	Max cycle:  0
+	Last depth cycle: 0
+	Last depth cycle (try sched): 0
+	Last queue length: 0
+*******************************************************
+sdiag output time: Sun Jan  1 00:40:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 33
+Jobs started:   33
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   1
+	Max cycle:    1030
+	Total cycles: 95
+	Mean cycle:   79
+	Mean depth cycle:  1
+	Cycles per minute: 0
+	Last queue length: 0
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 0
+	Total backfilled jobs (since last stats cycle start): 0
+	Total cycles: 0
+	Last cycle when: Wed Dec 31 18:00:00 1969
+	Last cycle: 0
+	Max cycle:  0
+	Last depth cycle: 0
+	Last depth cycle (try sched): 0
+	Last queue length: 0
+*******************************************************
+sdiag output time: Sun Jan  1 01:00:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 57
+Jobs started:   54
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   26
+	Max cycle:    1030
+	Total cycles: 155
+	Mean cycle:   74
+	Mean depth cycle:  3
+	Cycles per minute: 0
+	Last queue length: 8
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 5
+	Total backfilled jobs (since last stats cycle start): 5
+	Total cycles: 1
+	Last cycle when: Sun Jan  1 01:00:41 2017
+	Last cycle: 1146
+	Max cycle:  1146
+	Mean cycle: 1146
+	Last depth cycle: 8
+	Last depth cycle (try sched): 8
+	Depth Mean: 8
+	Depth Mean (try depth): 8
+	Last queue length: 8
+	Queue length mean: 8
+*******************************************************
+sdiag output time: Sun Jan  1 01:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 89
+Jobs started:   70
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   37
+	Max cycle:    1030
+	Total cycles: 223
+	Mean cycle:   64
+	Mean depth cycle:  5
+	Cycles per minute: 0
+	Last queue length: 28
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 14
+	Total backfilled jobs (since last stats cycle start): 9
+	Total cycles: 2
+	Last cycle when: Sun Jan  1 01:20:41 2017
+	Last cycle: 3090
+	Max cycle:  3090
+	Mean cycle: 2118
+	Last depth cycle: 28
+	Last depth cycle (try sched): 28
+	Depth Mean: 18
+	Depth Mean (try depth): 18
+	Last queue length: 28
+	Queue length mean: 18
+*******************************************************
+sdiag output time: Sun Jan  1 01:40:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 114
+Jobs started:   85
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   25
+	Max cycle:    1030
+	Total cycles: 279
+	Mean cycle:   59
+	Mean depth cycle:  10
+	Cycles per minute: 0
+	Last queue length: 42
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 27
+	Total backfilled jobs (since last stats cycle start): 13
+	Total cycles: 3
+	Last cycle when: Sun Jan  1 01:40:41 2017
+	Last cycle: 3425
+	Max cycle:  3425
+	Mean cycle: 2553
+	Last depth cycle: 42
+	Last depth cycle (try sched): 42
+	Depth Mean: 26
+	Depth Mean (try depth): 26
+	Last queue length: 42
+	Queue length mean: 26
+*******************************************************
+sdiag output time: Sun Jan  1 02:00:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 132
+Jobs started:   100
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   45
+	Max cycle:    1030
+	Total cycles: 324
+	Mean cycle:   57
+	Mean depth cycle:  14
+	Cycles per minute: 0
+	Last queue length: 45
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 40
+	Total backfilled jobs (since last stats cycle start): 13
+	Total cycles: 4
+	Last cycle when: Sun Jan  1 02:00:41 2017
+	Last cycle: 3539
+	Max cycle:  3539
+	Mean cycle: 2800
+	Last depth cycle: 45
+	Last depth cycle (try sched): 45
+	Depth Mean: 30
+	Depth Mean (try depth): 30
+	Last queue length: 45
+	Queue length mean: 30
+*******************************************************
+sdiag output time: Sun Jan  1 02:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 160
+Jobs started:   113
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   54
+	Max cycle:    1030
+	Total cycles: 381
+	Mean cycle:   58
+	Mean depth cycle:  18
+	Cycles per minute: 0
+	Last queue length: 53
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 46
+	Total backfilled jobs (since last stats cycle start): 6
+	Total cycles: 5
+	Last cycle when: Sun Jan  1 02:20:41 2017
+	Last cycle: 4247
+	Max cycle:  4247
+	Mean cycle: 3089
+	Last depth cycle: 53
+	Last depth cycle (try sched): 53
+	Depth Mean: 35
+	Depth Mean (try depth): 35
+	Last queue length: 53
+	Queue length mean: 35
+*******************************************************
+sdiag output time: Sun Jan  1 02:40:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 184
+Jobs started:   130
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   57
+	Max cycle:    1030
+	Total cycles: 437
+	Mean cycle:   58
+	Mean depth cycle:  23
+	Cycles per minute: 0
+	Last queue length: 68
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 60
+	Total backfilled jobs (since last stats cycle start): 14
+	Total cycles: 6
+	Last cycle when: Sun Jan  1 02:40:41 2017
+	Last cycle: 8017
+	Max cycle:  8017
+	Mean cycle: 3910
+	Last depth cycle: 68
+	Last depth cycle (try sched): 68
+	Depth Mean: 40
+	Depth Mean (try depth): 40
+	Last queue length: 68
+	Queue length mean: 40
+*******************************************************
+sdiag output time: Sun Jan  1 03:00:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 212
+Jobs started:   145
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   49
+	Max cycle:    1030
+	Total cycles: 501
+	Mean cycle:   60
+	Mean depth cycle:  29
+	Cycles per minute: 0
+	Last queue length: 76
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 69
+	Total backfilled jobs (since last stats cycle start): 9
+	Total cycles: 7
+	Last cycle when: Sun Jan  1 03:00:41 2017
+	Last cycle: 6405
+	Max cycle:  8017
+	Mean cycle: 4267
+	Last depth cycle: 76
+	Last depth cycle (try sched): 76
+	Depth Mean: 45
+	Depth Mean (try depth): 45
+	Last queue length: 76
+	Queue length mean: 45
+*******************************************************
+sdiag output time: Sun Jan  1 03:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 236
+Jobs started:   149
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   44
+	Max cycle:    1030
+	Total cycles: 551
+	Mean cycle:   60
+	Mean depth cycle:  33
+	Cycles per minute: 0
+	Last queue length: 89
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 71
+	Total backfilled jobs (since last stats cycle start): 2
+	Total cycles: 8
+	Last cycle when: Sun Jan  1 03:20:41 2017
+	Last cycle: 3727
+	Max cycle:  8017
+	Mean cycle: 4199
+	Last depth cycle: 89
+	Last depth cycle (try sched): 89
+	Depth Mean: 51
+	Depth Mean (try depth): 51
+	Last queue length: 89
+	Queue length mean: 51
+*******************************************************
+sdiag output time: Sun Jan  1 03:40:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 260
+Jobs started:   176
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   53
+	Max cycle:    1367
+	Total cycles: 605
+	Mean cycle:   64
+	Mean depth cycle:  38
+	Cycles per minute: 0
+	Last queue length: 97
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 84
+	Total backfilled jobs (since last stats cycle start): 13
+	Total cycles: 9
+	Last cycle when: Sun Jan  1 03:40:41 2017
+	Last cycle: 9904
+	Max cycle:  9904
+	Mean cycle: 4833
+	Last depth cycle: 97
+	Last depth cycle (try sched): 97
+	Depth Mean: 56
+	Depth Mean (try depth): 56
+	Last queue length: 97
+	Queue length mean: 56
+*******************************************************
+sdiag output time: Sun Jan  1 04:00:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 286
+Jobs started:   186
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   71
+	Max cycle:    1367
+	Total cycles: 668
+	Mean cycle:   65
+	Mean depth cycle:  43
+	Cycles per minute: 0
+	Last queue length: 104
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 88
+	Total backfilled jobs (since last stats cycle start): 4
+	Total cycles: 10
+	Last cycle when: Sun Jan  1 04:00:41 2017
+	Last cycle: 7173
+	Max cycle:  9904
+	Mean cycle: 5067
+	Last depth cycle: 104
+	Last depth cycle (try sched): 104
+	Depth Mean: 61
+	Depth Mean (try depth): 61
+	Last queue length: 104
+	Queue length mean: 61
+*******************************************************
+sdiag output time: Sun Jan  1 04:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 312
+Jobs started:   206
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   68
+	Max cycle:    1367
+	Total cycles: 722
+	Mean cycle:   67
+	Mean depth cycle:  48
+	Cycles per minute: 0
+	Last queue length: 121
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 103
+	Total backfilled jobs (since last stats cycle start): 15
+	Total cycles: 11
+	Last cycle when: Sun Jan  1 04:20:41 2017
+	Last cycle: 11836
+	Max cycle:  11836
+	Mean cycle: 5682
+	Last depth cycle: 121
+	Last depth cycle (try sched): 121
+	Depth Mean: 66
+	Depth Mean (try depth): 66
+	Last queue length: 121
+	Queue length mean: 66
+*******************************************************
+sdiag output time: Sun Jan  1 04:40:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 335
+Jobs started:   226
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   84
+	Max cycle:    1367
+	Total cycles: 783
+	Mean cycle:   70
+	Mean depth cycle:  52
+	Cycles per minute: 0
+	Last queue length: 123
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 117
+	Total backfilled jobs (since last stats cycle start): 14
+	Total cycles: 12
+	Last cycle when: Sun Jan  1 04:40:41 2017
+	Last cycle: 10386
+	Max cycle:  11836
+	Mean cycle: 6074
+	Last depth cycle: 123
+	Last depth cycle (try sched): 123
+	Depth Mean: 71
+	Depth Mean (try depth): 71
+	Last queue length: 123
+	Queue length mean: 71
+*******************************************************
+sdiag output time: Sun Jan  1 05:00:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 356
+Jobs started:   228
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   77
+	Max cycle:    1367
+	Total cycles: 837
+	Mean cycle:   71
+	Mean depth cycle:  56
+	Cycles per minute: 0
+	Last queue length: 129
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 118
+	Total backfilled jobs (since last stats cycle start): 1
+	Total cycles: 13
+	Last cycle when: Sun Jan  1 05:00:41 2017
+	Last cycle: 5397
+	Max cycle:  11836
+	Mean cycle: 6022
+	Last depth cycle: 129
+	Last depth cycle (try sched): 129
+	Depth Mean: 75
+	Depth Mean (try depth): 75
+	Last queue length: 129
+	Queue length mean: 75
+*******************************************************
+sdiag output time: Sun Jan  1 05:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 383
+Jobs started:   242
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   92
+	Max cycle:    1367
+	Total cycles: 890
+	Mean cycle:   73
+	Mean depth cycle:  59
+	Cycles per minute: 0
+	Last queue length: 148
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 125
+	Total backfilled jobs (since last stats cycle start): 7
+	Total cycles: 14
+	Last cycle when: Sun Jan  1 05:20:41 2017
+	Last cycle: 10856
+	Max cycle:  11836
+	Mean cycle: 6367
+	Last depth cycle: 148
+	Last depth cycle (try sched): 148
+	Depth Mean: 80
+	Depth Mean (try depth): 80
+	Last queue length: 148
+	Queue length mean: 80
+*******************************************************
+sdiag output time: Sun Jan  1 05:40:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 409
+Jobs started:   252
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   97
+	Max cycle:    1367
+	Total cycles: 943
+	Mean cycle:   75
+	Mean depth cycle:  63
+	Cycles per minute: 0
+	Last queue length: 163
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 131
+	Total backfilled jobs (since last stats cycle start): 6
+	Total cycles: 15
+	Last cycle when: Sun Jan  1 05:40:41 2017
+	Last cycle: 4763
+	Max cycle:  11836
+	Mean cycle: 6260
+	Last depth cycle: 163
+	Last depth cycle (try sched): 163
+	Depth Mean: 86
+	Depth Mean (try depth): 86
+	Last queue length: 163
+	Queue length mean: 86
+*******************************************************
+sdiag output time: Sun Jan  1 06:00:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 434
+Jobs started:   270
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   81
+	Max cycle:    1367
+	Total cycles: 1002
+	Mean cycle:   79
+	Mean depth cycle:  66
+	Cycles per minute: 0
+	Last queue length: 174
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 141
+	Total backfilled jobs (since last stats cycle start): 10
+	Total cycles: 16
+	Last cycle when: Sun Jan  1 06:00:41 2017
+	Last cycle: 11429
+	Max cycle:  11836
+	Mean cycle: 6583
+	Last depth cycle: 174
+	Last depth cycle (try sched): 174
+	Depth Mean: 91
+	Depth Mean (try depth): 91
+	Last queue length: 174
+	Queue length mean: 91
+*******************************************************
+sdiag output time: Sun Jan  1 06:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 456
+Jobs started:   276
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   112
+	Max cycle:    1367
+	Total cycles: 1053
+	Mean cycle:   81
+	Mean depth cycle:  69
+	Cycles per minute: 0
+	Last queue length: 184
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 145
+	Total backfilled jobs (since last stats cycle start): 4
+	Total cycles: 17
+	Last cycle when: Sun Jan  1 06:20:41 2017
+	Last cycle: 8422
+	Max cycle:  11836
+	Mean cycle: 6691
+	Last depth cycle: 184
+	Last depth cycle (try sched): 184
+	Depth Mean: 97
+	Depth Mean (try depth): 97
+	Last queue length: 184
+	Queue length mean: 97
+*******************************************************
+sdiag output time: Sun Jan  1 06:40:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 478
+Jobs started:   292
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   121
+	Max cycle:    1367
+	Total cycles: 1102
+	Mean cycle:   84
+	Mean depth cycle:  72
+	Cycles per minute: 0
+	Last queue length: 196
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 155
+	Total backfilled jobs (since last stats cycle start): 10
+	Total cycles: 18
+	Last cycle when: Sun Jan  1 06:40:41 2017
+	Last cycle: 20810
+	Max cycle:  20810
+	Mean cycle: 7476
+	Last depth cycle: 196
+	Last depth cycle (try sched): 196
+	Depth Mean: 102
+	Depth Mean (try depth): 102
+	Last queue length: 196
+	Queue length mean: 102
+*******************************************************
+sdiag output time: Sun Jan  1 07:00:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   307
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   116
+	Max cycle:    1367
+	Total cycles: 1153
+	Mean cycle:   86
+	Mean depth cycle:  75
+	Cycles per minute: 0
+	Last queue length: 206
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 168
+	Total backfilled jobs (since last stats cycle start): 13
+	Total cycles: 19
+	Last cycle when: Sun Jan  1 07:00:41 2017
+	Last cycle: 11597
+	Max cycle:  20810
+	Mean cycle: 7693
+	Last depth cycle: 206
+	Last depth cycle (try sched): 206
+	Depth Mean: 108
+	Depth Mean (try depth): 108
+	Last queue length: 206
+	Queue length mean: 108
+*******************************************************
+sdiag output time: Sun Jan  1 07:20:41 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   335
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   110
+	Max cycle:    1367
+	Total cycles: 1191
+	Mean cycle:   88
+	Mean depth cycle:  78
+	Cycles per minute: 0
+	Last queue length: 186
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 189
+	Total backfilled jobs (since last stats cycle start): 21
+	Total cycles: 20
+	Last cycle when: Sun Jan  1 07:20:41 2017
+	Last cycle: 17895
+	Max cycle:  20810
+	Mean cycle: 8203
+	Last depth cycle: 186
+	Last depth cycle (try sched): 186
+	Depth Mean: 112
+	Depth Mean (try depth): 112
+	Last queue length: 186
+	Queue length mean: 112
+*******************************************************
+sdiag output time: Sun Jan  1 07:40:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   359
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   106
+	Max cycle:    1367
+	Total cycles: 1233
+	Mean cycle:   90
+	Mean depth cycle:  79
+	Cycles per minute: 0
+	Last queue length: 157
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 205
+	Total backfilled jobs (since last stats cycle start): 16
+	Total cycles: 21
+	Last cycle when: Sun Jan  1 07:40:41 2017
+	Last cycle: 15263
+	Max cycle:  20810
+	Mean cycle: 8539
+	Last depth cycle: 157
+	Last depth cycle (try sched): 157
+	Depth Mean: 114
+	Depth Mean (try depth): 114
+	Last queue length: 157
+	Queue length mean: 114
+*******************************************************
+sdiag output time: Sun Jan  1 08:00:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   375
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   82
+	Max cycle:    1367
+	Total cycles: 1271
+	Mean cycle:   91
+	Mean depth cycle:  81
+	Cycles per minute: 0
+	Last queue length: 138
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 218
+	Total backfilled jobs (since last stats cycle start): 13
+	Total cycles: 22
+	Last cycle when: Sun Jan  1 08:00:42 2017
+	Last cycle: 10758
+	Max cycle:  20810
+	Mean cycle: 8640
+	Last depth cycle: 138
+	Last depth cycle (try sched): 138
+	Depth Mean: 115
+	Depth Mean (try depth): 115
+	Last queue length: 138
+	Queue length mean: 115
+*******************************************************
+sdiag output time: Sun Jan  1 08:20:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   390
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   78
+	Max cycle:    1367
+	Total cycles: 1304
+	Mean cycle:   91
+	Mean depth cycle:  81
+	Cycles per minute: 0
+	Last queue length: 124
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 232
+	Total backfilled jobs (since last stats cycle start): 14
+	Total cycles: 23
+	Last cycle when: Sun Jan  1 08:20:42 2017
+	Last cycle: 9224
+	Max cycle:  20810
+	Mean cycle: 8665
+	Last depth cycle: 124
+	Last depth cycle (try sched): 124
+	Depth Mean: 115
+	Depth Mean (try depth): 115
+	Last queue length: 124
+	Queue length mean: 115
+*******************************************************
+sdiag output time: Sun Jan  1 08:40:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   401
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   66
+	Max cycle:    1367
+	Total cycles: 1340
+	Mean cycle:   91
+	Mean depth cycle:  82
+	Cycles per minute: 0
+	Last queue length: 106
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 239
+	Total backfilled jobs (since last stats cycle start): 7
+	Total cycles: 24
+	Last cycle when: Sun Jan  1 08:40:42 2017
+	Last cycle: 5376
+	Max cycle:  20810
+	Mean cycle: 8528
+	Last depth cycle: 106
+	Last depth cycle (try sched): 106
+	Depth Mean: 115
+	Depth Mean (try depth): 115
+	Last queue length: 106
+	Queue length mean: 115
+*******************************************************
+sdiag output time: Sun Jan  1 09:00:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   434
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   59
+	Max cycle:    1571
+	Total cycles: 1375
+	Mean cycle:   92
+	Mean depth cycle:  82
+	Cycles per minute: 0
+	Last queue length: 88
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 261
+	Total backfilled jobs (since last stats cycle start): 22
+	Total cycles: 25
+	Last cycle when: Sun Jan  1 09:00:42 2017
+	Last cycle: 9821
+	Max cycle:  20810
+	Mean cycle: 8580
+	Last depth cycle: 88
+	Last depth cycle (try sched): 88
+	Depth Mean: 114
+	Depth Mean (try depth): 114
+	Last queue length: 88
+	Queue length mean: 114
+*******************************************************
+sdiag output time: Sun Jan  1 09:20:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   446
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   53
+	Max cycle:    1571
+	Total cycles: 1416
+	Mean cycle:   91
+	Mean depth cycle:  82
+	Cycles per minute: 0
+	Last queue length: 65
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 272
+	Total backfilled jobs (since last stats cycle start): 11
+	Total cycles: 26
+	Last cycle when: Sun Jan  1 09:20:42 2017
+	Last cycle: 6363
+	Max cycle:  20810
+	Mean cycle: 8494
+	Last depth cycle: 65
+	Last depth cycle (try sched): 65
+	Depth Mean: 112
+	Depth Mean (try depth): 112
+	Last queue length: 65
+	Queue length mean: 112
+*******************************************************
+sdiag output time: Sun Jan  1 09:40:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   462
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   44
+	Max cycle:    1571
+	Total cycles: 1453
+	Mean cycle:   91
+	Mean depth cycle:  81
+	Cycles per minute: 0
+	Last queue length: 50
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 284
+	Total backfilled jobs (since last stats cycle start): 12
+	Total cycles: 27
+	Last cycle when: Sun Jan  1 09:40:42 2017
+	Last cycle: 5166
+	Max cycle:  20810
+	Mean cycle: 8371
+	Last depth cycle: 50
+	Last depth cycle (try sched): 50
+	Depth Mean: 109
+	Depth Mean (try depth): 109
+	Last queue length: 50
+	Queue length mean: 109
+*******************************************************
+sdiag output time: Sun Jan  1 10:00:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   484
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   29
+	Max cycle:    1571
+	Total cycles: 1489
+	Mean cycle:   91
+	Mean depth cycle:  80
+	Cycles per minute: 0
+	Last queue length: 28
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 296
+	Total backfilled jobs (since last stats cycle start): 12
+	Total cycles: 28
+	Last cycle when: Sun Jan  1 10:00:42 2017
+	Last cycle: 3961
+	Max cycle:  20810
+	Mean cycle: 8214
+	Last depth cycle: 28
+	Last depth cycle (try sched): 28
+	Depth Mean: 107
+	Depth Mean (try depth): 107
+	Last queue length: 28
+	Queue length mean: 107
+*******************************************************
+sdiag output time: Sun Jan  1 10:20:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   491
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   33
+	Max cycle:    1571
+	Total cycles: 1526
+	Mean cycle:   90
+	Mean depth cycle:  78
+	Cycles per minute: 0
+	Last queue length: 15
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 302
+	Total backfilled jobs (since last stats cycle start): 6
+	Total cycles: 29
+	Last cycle when: Sun Jan  1 10:20:42 2017
+	Last cycle: 1572
+	Max cycle:  20810
+	Mean cycle: 7985
+	Last depth cycle: 15
+	Last depth cycle (try sched): 15
+	Depth Mean: 103
+	Depth Mean (try depth): 103
+	Last queue length: 15
+	Queue length mean: 103
+*******************************************************
+sdiag output time: Sun Jan  1 10:40:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   495
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   29
+	Max cycle:    1571
+	Total cycles: 1554
+	Mean cycle:   89
+	Mean depth cycle:  77
+	Cycles per minute: 0
+	Last queue length: 8
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 305
+	Total backfilled jobs (since last stats cycle start): 3
+	Total cycles: 30
+	Last cycle when: Sun Jan  1 10:40:42 2017
+	Last cycle: 742
+	Max cycle:  20810
+	Mean cycle: 7743
+	Last depth cycle: 8
+	Last depth cycle (try sched): 8
+	Depth Mean: 100
+	Depth Mean (try depth): 100
+	Last queue length: 8
+	Queue length mean: 100
+*******************************************************
+sdiag output time: Sun Jan  1 11:00:42 2017
+Data since:        Wed Dec 31 18:00:00 1969
+*******************************************************
+Server thread count: 0
+Agent queue size:    0
+
+Jobs submitted: 500
+Jobs started:   500
+Jobs completed: 0
+Jobs canceled:  0
+Jobs failed:    0
+
+Main schedule statistics (microseconds):
+	Last cycle:   2
+	Max cycle:    1571
+	Total cycles: 1581
+	Mean cycle:   88
+	Mean depth cycle:  76
+	Cycles per minute: 0
+	Last queue length: 0
+
+Backfilling stats
+	Total backfilled jobs (since last slurm start): 305
+	Total backfilled jobs (since last stats cycle start): 3
+	Total cycles: 30
+	Last cycle when: Sun Jan  1 10:40:42 2017
+	Last cycle: 742
+	Max cycle:  20810
+	Mean cycle: 7743
+	Last depth cycle: 8
+	Last depth cycle (try sched): 8
+	Depth Mean: 100
+	Depth Mean (try depth): 100
+	Last queue length: 8
+	Queue length mean: 100

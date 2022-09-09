@@ -1,0 +1,9 @@
+[2000-12-31T23:00:00.037] error: Unable to open pidfile `/var/run/slurmctld.pid': Read-only file system
+[2000-12-31T23:00:00.037] Not running as root. Can't drop supplementary groups
+[2000-12-31T23:00:00.038] error: Configured MailProg is invalid
+[2000-12-31T23:00:00.038] slurmctld version 17.02.2 started on cluster beocat
+[2000-12-31T23:00:00.064] error: slurm_persist_conn_open_without_init: failed to open persistant connection to localhost:29001: Connection refused
+[2000-12-31T23:00:00.064] error: slurmdbd: Sending PersistInit msg: Connection refused
+[2000-12-31T23:00:00.064] error: Association database appears down, reading from state file.
+[2000-12-31T23:00:00.064] error: Unable to get any information from the state file
+[2000-12-31T23:00:00.064] fatal: slurmdbd and/or database must be up at slurmctld start time

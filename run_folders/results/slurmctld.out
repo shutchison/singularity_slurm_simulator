@@ -1,0 +1,10 @@
+slurmctld: slurm_sim_conf->time_step=1000000 us
+slurmctld: error: Unable to open pidfile `/var/run/slurmctld.pid': Read-only file system
+slurmctld: Not running as root. Can't drop supplementary groups
+slurmctld: error: Configured MailProg is invalid
+slurmctld: slurmctld version 17.02.2 started on cluster beocat
+slurmctld: error: slurm_persist_conn_open_without_init: failed to open persistant connection to localhost:29001: Connection refused
+slurmctld: error: slurmdbd: Sending PersistInit msg: Connection refused
+slurmctld: error: Association database appears down, reading from state file.
+slurmctld: error: Unable to get any information from the state file
+slurmctld: fatal: slurmdbd and/or database must be up at slurmctld start time

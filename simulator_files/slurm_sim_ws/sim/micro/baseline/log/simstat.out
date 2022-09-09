@@ -1,0 +1,2752 @@
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:01:26 2017
+	Last cycle:   524
+	Last depth cycle: 1
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000533
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 885
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 0
+	nodes_idle: 19
+	nodes_mixed: 0
+	nodes_allocated: 0
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:02:15 2017
+	Last cycle:   177
+	Last depth cycle: 2
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000185
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 307
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 0
+	nodes_idle: 19
+	nodes_mixed: 0
+	nodes_allocated: 0
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:02:26 2017
+	Last cycle:   213
+	Last depth cycle: 3
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000219
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 363
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:09:31 2017
+	Last cycle:   219
+	Last depth cycle: 4
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000226
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 374
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:11:05 2017
+	Last cycle:   213
+	Last depth cycle: 5
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000222
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 373
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 2
+	nodes_idle: 17
+	nodes_mixed: 0
+	nodes_allocated: 2
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:11:11 2017
+	Last cycle:   186
+	Last depth cycle: 6
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000193
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 320
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 3
+	nodes_idle: 16
+	nodes_mixed: 0
+	nodes_allocated: 3
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:11:20 2017
+	Last cycle:   197
+	Last depth cycle: 7
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000206
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 333
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 4
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:12:50 2017
+	Last cycle:   172
+	Last depth cycle: 8
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000180
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 299
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 4
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:14:29 2017
+	Last cycle:   197
+	Last depth cycle: 9
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000205
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 339
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 4
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:14:34 2017
+	Last cycle:   171
+	Last depth cycle: 10
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000179
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 293
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 5
+	nodes_idle: 6
+	nodes_mixed: 0
+	nodes_allocated: 13
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:15:57 2017
+	Last cycle:   200
+	Last depth cycle: 11
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000222
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 370
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 3
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:17:33 2017
+	Last cycle:   201
+	Last depth cycle: 12
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000209
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 339
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 3
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:19:46 2017
+	Last cycle:   167
+	Last depth cycle: 13
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000174
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 285
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 4
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:19:52 2017
+	Last cycle:   201
+	Last depth cycle: 14
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000209
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 354
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 4
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 00:20:41 2017
+	Last cycle when: Wed Dec 31 18:00:00 1969
+	Last cycle: 0
+	Last depth cycle: 0
+	Last depth cycle (try sched): 0
+	Last queue length: 0
+	Last backfilled jobs: 0
+	Run real time: 0.000013
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 23
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 0
+	jobs_running: 3
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:21:20 2017
+	Last cycle:   200
+	Last depth cycle: 15
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000209
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 345
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 3
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:21:33 2017
+	Last cycle:   175
+	Last depth cycle: 16
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000182
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 296
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 4
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:22:38 2017
+	Last cycle:   166
+	Last depth cycle: 17
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000172
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 278
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 4
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:22:44 2017
+	Last cycle:   169
+	Last depth cycle: 18
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000175
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 286
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 5
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:28:03 2017
+	Last cycle:   209
+	Last depth cycle: 41
+	Last scheduled: 1
+	Last queue length: 4
+	Run real time: 0.000217
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 353
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 4
+	jobs_running: 4
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:29:30 2017
+	Last cycle:   196
+	Last depth cycle: 48
+	Last scheduled: 1
+	Last queue length: 4
+	Run real time: 0.000204
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 330
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 4
+	jobs_running: 5
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:33:28 2017
+	Last cycle:   288
+	Last depth cycle: 91
+	Last scheduled: 1
+	Last queue length: 7
+	Run real time: 0.000296
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 499
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 7
+	jobs_running: 5
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:34:26 2017
+	Last cycle:   1030
+	Last depth cycle: 115
+	Last scheduled: 6
+	Last queue length: 6
+	Run real time: 0.001039
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1701
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 6
+	jobs_running: 3
+	nodes_idle: 16
+	nodes_mixed: 0
+	nodes_allocated: 3
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:34:46 2017
+	Last cycle:   275
+	Last depth cycle: 116
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000282
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 459
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 9
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:35:13 2017
+	Last cycle:   178
+	Last depth cycle: 117
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000185
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 301
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 9
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:35:56 2017
+	Last cycle:   209
+	Last depth cycle: 118
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000217
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 355
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 10
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:36:17 2017
+	Last cycle:   180
+	Last depth cycle: 119
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000188
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 304
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 11
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:37:10 2017
+	Last cycle:   181
+	Last depth cycle: 120
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000187
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 298
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 11
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:37:44 2017
+	Last cycle:   359
+	Last depth cycle: 121
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000365
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 589
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 12
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 00:40:41 2017
+	Last cycle when: Wed Dec 31 18:00:00 1969
+	Last cycle: 0
+	Last depth cycle: 0
+	Last depth cycle (try sched): 0
+	Last queue length: 0
+	Last backfilled jobs: 0
+	Run real time: 0.000005
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 4
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 0
+	jobs_running: 10
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:40:44 2017
+	Last cycle:   213
+	Last depth cycle: 122
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000219
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 373
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 10
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:43:26 2017
+	Last cycle:   197
+	Last depth cycle: 123
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000205
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 339
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 8
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:43:47 2017
+	Last cycle:   173
+	Last depth cycle: 124
+	Last scheduled: 1
+	Last queue length: 1
+	Run real time: 0.000179
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 296
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 1
+	jobs_running: 8
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:44:24 2017
+	Last cycle:   211
+	Last depth cycle: 130
+	Last scheduled: 1
+	Last queue length: 3
+	Run real time: 0.000217
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 362
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 3
+	jobs_running: 9
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:53:52 2017
+	Last cycle:   237
+	Last depth cycle: 269
+	Last scheduled: 1
+	Last queue length: 11
+	Run real time: 0.000244
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 396
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 11
+	jobs_running: 3
+	nodes_idle: 9
+	nodes_mixed: 0
+	nodes_allocated: 10
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:57:29 2017
+	Last cycle:   914
+	Last depth cycle: 379
+	Last scheduled: 5
+	Last queue length: 13
+	Run real time: 0.000922
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1513
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 13
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:57:32 2017
+	Last cycle:   376
+	Last depth cycle: 387
+	Last scheduled: 2
+	Last queue length: 8
+	Run real time: 0.000382
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 625
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 8
+	jobs_running: 5
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:57:41 2017
+	Last cycle:   206
+	Last depth cycle: 394
+	Last scheduled: 1
+	Last queue length: 7
+	Run real time: 0.000214
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 349
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 7
+	jobs_running: 7
+	nodes_idle: 9
+	nodes_mixed: 0
+	nodes_allocated: 10
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:58:00 2017
+	Last cycle:   199
+	Last depth cycle: 401
+	Last scheduled: 1
+	Last queue length: 7
+	Run real time: 0.000205
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 336
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 7
+	jobs_running: 8
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 00:58:55 2017
+	Last cycle:   203
+	Last depth cycle: 420
+	Last scheduled: 1
+	Last queue length: 7
+	Run real time: 0.000211
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 342
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 7
+	jobs_running: 8
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:00:37 2017
+	Last cycle:   201
+	Last depth cycle: 457
+	Last scheduled: 1
+	Last queue length: 9
+	Run real time: 0.000208
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 339
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 9
+	jobs_running: 8
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 01:00:41 2017
+	Last cycle when: Sun Jan  1 01:00:41 2017
+	Last cycle: 1146
+	Last depth cycle: 8
+	Last depth cycle (try sched): 8
+	Last queue length: 8
+	Last backfilled jobs: 5
+	Run real time: 0.001155
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1885
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 3
+	jobs_running: 14
+	nodes_idle: 4
+	nodes_mixed: 0
+	nodes_allocated: 15
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:01:23 2017
+	Last cycle:   707
+	Last depth cycle: 487
+	Last scheduled: 4
+	Last queue length: 5
+	Run real time: 0.000716
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1176
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 5
+	jobs_running: 11
+	nodes_idle: 6
+	nodes_mixed: 0
+	nodes_allocated: 13
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:02:51 2017
+	Last cycle:   245
+	Last depth cycle: 500
+	Last scheduled: 1
+	Last queue length: 3
+	Run real time: 0.000254
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 418
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 3
+	jobs_running: 12
+	nodes_idle: 9
+	nodes_mixed: 0
+	nodes_allocated: 10
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:03:20 2017
+	Last cycle:   198
+	Last depth cycle: 503
+	Last scheduled: 1
+	Last queue length: 3
+	Run real time: 0.000205
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 332
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 3
+	jobs_running: 13
+	nodes_idle: 6
+	nodes_mixed: 0
+	nodes_allocated: 13
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:04:04 2017
+	Last cycle:   193
+	Last depth cycle: 515
+	Last scheduled: 1
+	Last queue length: 4
+	Run real time: 0.000200
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 327
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 4
+	jobs_running: 12
+	nodes_idle: 7
+	nodes_mixed: 0
+	nodes_allocated: 12
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 01:20:41 2017
+	Last cycle when: Sun Jan  1 01:20:41 2017
+	Last cycle: 3090
+	Last depth cycle: 28
+	Last depth cycle (try sched): 28
+	Last queue length: 28
+	Last backfilled jobs: 9
+	Run real time: 0.003105
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 5055
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 19
+	jobs_running: 12
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:29:52 2017
+	Last cycle:   249
+	Last depth cycle: 1975
+	Last scheduled: 1
+	Last queue length: 31
+	Run real time: 0.000256
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 420
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 31
+	jobs_running: 4
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:33:28 2017
+	Last cycle:   228
+	Last depth cycle: 2338
+	Last scheduled: 1
+	Last queue length: 35
+	Run real time: 0.000237
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 387
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 35
+	jobs_running: 2
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 01:40:41 2017
+	Last cycle when: Sun Jan  1 01:40:41 2017
+	Last cycle: 3425
+	Last depth cycle: 42
+	Last depth cycle (try sched): 42
+	Last queue length: 42
+	Last backfilled jobs: 13
+	Run real time: 0.003455
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 5490
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 29
+	jobs_running: 14
+	nodes_idle: 6
+	nodes_mixed: 0
+	nodes_allocated: 13
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:43:56 2017
+	Last cycle:   249
+	Last depth cycle: 3202
+	Last scheduled: 1
+	Last queue length: 31
+	Run real time: 0.000258
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 415
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 31
+	jobs_running: 7
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 01:53:44 2017
+	Last cycle:   283
+	Last depth cycle: 3847
+	Last scheduled: 1
+	Last queue length: 37
+	Run real time: 0.000293
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 457
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 37
+	jobs_running: 4
+	nodes_idle: 16
+	nodes_mixed: 0
+	nodes_allocated: 3
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 02:00:41 2017
+	Last cycle when: Sun Jan  1 02:00:41 2017
+	Last cycle: 3539
+	Last depth cycle: 45
+	Last depth cycle (try sched): 45
+	Last queue length: 45
+	Last backfilled jobs: 13
+	Run real time: 0.003554
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 5807
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 32
+	jobs_running: 14
+	nodes_idle: 6
+	nodes_mixed: 0
+	nodes_allocated: 13
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:09:41 2017
+	Last cycle:   234
+	Last depth cycle: 5712
+	Last scheduled: 1
+	Last queue length: 44
+	Run real time: 0.000243
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 394
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 44
+	jobs_running: 3
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:10:26 2017
+	Last cycle:   231
+	Last depth cycle: 5801
+	Last scheduled: 1
+	Last queue length: 45
+	Run real time: 0.000239
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 387
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 45
+	jobs_running: 4
+	nodes_idle: 9
+	nodes_mixed: 0
+	nodes_allocated: 10
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:14:16 2017
+	Last cycle:   826
+	Last depth cycle: 6267
+	Last scheduled: 4
+	Last queue length: 48
+	Run real time: 0.000835
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1381
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 48
+	jobs_running: 2
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:17:09 2017
+	Last cycle:   241
+	Last depth cycle: 6689
+	Last scheduled: 1
+	Last queue length: 51
+	Run real time: 0.000249
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 412
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 51
+	jobs_running: 6
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 02:20:41 2017
+	Last cycle when: Sun Jan  1 02:20:41 2017
+	Last cycle: 4247
+	Last depth cycle: 53
+	Last depth cycle (try sched): 53
+	Last queue length: 53
+	Last backfilled jobs: 6
+	Run real time: 0.004265
+	Run real utime: 0
+	Run real stime: 1
+	CLK_TCK: 100
+	Run clock: 7123
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 47
+	jobs_running: 12
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:20:51 2017
+	Last cycle:   230
+	Last depth cycle: 7151
+	Last scheduled: 1
+	Last queue length: 47
+	Run real time: 0.000239
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 397
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 47
+	jobs_running: 11
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:27:11 2017
+	Last cycle:   248
+	Last depth cycle: 8263
+	Last scheduled: 1
+	Last queue length: 57
+	Run real time: 0.000257
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 425
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 57
+	jobs_running: 8
+	nodes_idle: 9
+	nodes_mixed: 0
+	nodes_allocated: 10
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:30:34 2017
+	Last cycle:   216
+	Last depth cycle: 8777
+	Last scheduled: 1
+	Last queue length: 58
+	Run real time: 0.000223
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 367
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 58
+	jobs_running: 4
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 02:40:41 2017
+	Last cycle when: Sun Jan  1 02:40:41 2017
+	Last cycle: 8017
+	Last depth cycle: 68
+	Last depth cycle (try sched): 68
+	Last queue length: 68
+	Last backfilled jobs: 14
+	Run real time: 0.008042
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 13365
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 54
+	jobs_running: 16
+	nodes_idle: 2
+	nodes_mixed: 0
+	nodes_allocated: 17
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:43:16 2017
+	Last cycle:   278
+	Last depth cycle: 11033
+	Last scheduled: 1
+	Last queue length: 60
+	Run real time: 0.000287
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 481
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 60
+	jobs_running: 10
+	nodes_idle: 9
+	nodes_mixed: 0
+	nodes_allocated: 10
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:44:57 2017
+	Last cycle:   345
+	Last depth cycle: 11270
+	Last scheduled: 1
+	Last queue length: 60
+	Run real time: 0.000353
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 601
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 60
+	jobs_running: 10
+	nodes_idle: 7
+	nodes_mixed: 0
+	nodes_allocated: 12
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 02:50:10 2017
+	Last cycle:   437
+	Last depth cycle: 12206
+	Last scheduled: 2
+	Last queue length: 66
+	Run real time: 0.000447
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 735
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 66
+	jobs_running: 8
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:00:07 2017
+	Last cycle:   459
+	Last depth cycle: 14485
+	Last scheduled: 2
+	Last queue length: 78
+	Run real time: 0.000471
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 790
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 78
+	jobs_running: 1
+	nodes_idle: 16
+	nodes_mixed: 0
+	nodes_allocated: 3
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 03:00:41 2017
+	Last cycle when: Sun Jan  1 03:00:41 2017
+	Last cycle: 6405
+	Last depth cycle: 76
+	Last depth cycle (try sched): 76
+	Last queue length: 76
+	Last backfilled jobs: 9
+	Run real time: 0.006428
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 10680
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 67
+	jobs_running: 12
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:12:50 2017
+	Last cycle:   264
+	Last depth cycle: 16694
+	Last scheduled: 1
+	Last queue length: 80
+	Run real time: 0.000271
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 440
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 80
+	jobs_running: 6
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:15:04 2017
+	Last cycle:   263
+	Last depth cycle: 17260
+	Last scheduled: 1
+	Last queue length: 83
+	Run real time: 0.000272
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 444
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 83
+	jobs_running: 6
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 03:20:41 2017
+	Last cycle when: Sun Jan  1 03:20:41 2017
+	Last cycle: 3727
+	Last depth cycle: 89
+	Last depth cycle (try sched): 89
+	Last queue length: 89
+	Last backfilled jobs: 2
+	Run real time: 0.003752
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 6122
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 87
+	jobs_running: 7
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:29:07 2017
+	Last cycle:   680
+	Last depth cycle: 20225
+	Last scheduled: 3
+	Last queue length: 96
+	Run real time: 0.000689
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1144
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 96
+	jobs_running: 1
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:32:01 2017
+	Last cycle:   401
+	Last depth cycle: 21085
+	Last scheduled: 2
+	Last queue length: 97
+	Run real time: 0.000409
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 663
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 97
+	jobs_running: 2
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:36:20 2017
+	Last cycle:   638
+	Last depth cycle: 22261
+	Last scheduled: 3
+	Last queue length: 100
+	Run real time: 0.000648
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1026
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 100
+	jobs_running: 1
+	nodes_idle: 16
+	nodes_mixed: 0
+	nodes_allocated: 3
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:36:23 2017
+	Last cycle:   1367
+	Last depth cycle: 22358
+	Last scheduled: 6
+	Last queue length: 97
+	Run real time: 0.001376
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 2228
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 97
+	jobs_running: 3
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 03:40:41 2017
+	Last cycle when: Sun Jan  1 03:40:41 2017
+	Last cycle: 9904
+	Last depth cycle: 97
+	Last depth cycle (try sched): 97
+	Last queue length: 97
+	Last backfilled jobs: 13
+	Run real time: 0.010258
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 16630
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 84
+	jobs_running: 20
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:45:17 2017
+	Last cycle:   389
+	Last depth cycle: 24691
+	Last scheduled: 2
+	Last queue length: 86
+	Run real time: 0.000397
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 644
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 86
+	jobs_running: 13
+	nodes_idle: 3
+	nodes_mixed: 0
+	nodes_allocated: 16
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:45:20 2017
+	Last cycle:   452
+	Last depth cycle: 24775
+	Last scheduled: 2
+	Last queue length: 84
+	Run real time: 0.000459
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 746
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 84
+	jobs_running: 14
+	nodes_idle: 2
+	nodes_mixed: 0
+	nodes_allocated: 17
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 03:54:06 2017
+	Last cycle:   456
+	Last depth cycle: 27345
+	Last scheduled: 2
+	Last queue length: 95
+	Run real time: 0.000465
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 758
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 95
+	jobs_running: 8
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 04:00:41 2017
+	Last cycle when: Sun Jan  1 04:00:41 2017
+	Last cycle: 7173
+	Last depth cycle: 104
+	Last depth cycle (try sched): 104
+	Last queue length: 104
+	Last backfilled jobs: 4
+	Run real time: 0.007202
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 11663
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 100
+	jobs_running: 12
+	nodes_idle: 1
+	nodes_mixed: 0
+	nodes_allocated: 18
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 04:18:21 2017
+	Last cycle:   1184
+	Last depth cycle: 34098
+	Last scheduled: 5
+	Last queue length: 123
+	Run real time: 0.001195
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1967
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 123
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 04:20:41 2017
+	Last cycle when: Sun Jan  1 04:20:41 2017
+	Last cycle: 11836
+	Last depth cycle: 121
+	Last depth cycle (try sched): 121
+	Last queue length: 121
+	Last backfilled jobs: 15
+	Run real time: 0.011871
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 19310
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 106
+	jobs_running: 19
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 04:23:08 2017
+	Last cycle:   354
+	Last depth cycle: 35983
+	Last scheduled: 1
+	Last queue length: 108
+	Run real time: 0.000363
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 576
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 108
+	jobs_running: 12
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 04:36:41 2017
+	Last cycle:   365
+	Last depth cycle: 40226
+	Last scheduled: 1
+	Last queue length: 123
+	Run real time: 0.000375
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 624
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 123
+	jobs_running: 3
+	nodes_idle: 17
+	nodes_mixed: 0
+	nodes_allocated: 2
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 04:40:00 2017
+	Last cycle:   802
+	Last depth cycle: 41308
+	Last scheduled: 4
+	Last queue length: 127
+	Run real time: 0.000810
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1341
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 127
+	jobs_running: 2
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 04:40:41 2017
+	Last cycle when: Sun Jan  1 04:40:41 2017
+	Last cycle: 10386
+	Last depth cycle: 123
+	Last depth cycle (try sched): 123
+	Last queue length: 123
+	Last backfilled jobs: 14
+	Run real time: 0.010422
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 16847
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 109
+	jobs_running: 20
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 04:58:32 2017
+	Last cycle:   330
+	Last depth cycle: 46340
+	Last scheduled: 1
+	Last queue length: 126
+	Run real time: 0.000339
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 544
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 126
+	jobs_running: 4
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 05:00:41 2017
+	Last cycle when: Sun Jan  1 05:00:41 2017
+	Last cycle: 5397
+	Last depth cycle: 129
+	Last depth cycle (try sched): 129
+	Last queue length: 129
+	Last backfilled jobs: 1
+	Run real time: 0.005430
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 8747
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 128
+	jobs_running: 5
+	nodes_idle: 4
+	nodes_mixed: 0
+	nodes_allocated: 15
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:02:07 2017
+	Last cycle:   300
+	Last depth cycle: 47457
+	Last scheduled: 1
+	Last queue length: 128
+	Run real time: 0.000308
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 502
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 128
+	jobs_running: 4
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:09:00 2017
+	Last cycle:   636
+	Last depth cycle: 49398
+	Last scheduled: 3
+	Last queue length: 136
+	Run real time: 0.000644
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1026
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 136
+	jobs_running: 2
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:16:57 2017
+	Last cycle:   500
+	Last depth cycle: 52029
+	Last scheduled: 2
+	Last queue length: 146
+	Run real time: 0.000510
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 833
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 146
+	jobs_running: 3
+	nodes_idle: 7
+	nodes_mixed: 0
+	nodes_allocated: 12
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:20:37 2017
+	Last cycle:   293
+	Last depth cycle: 53174
+	Last scheduled: 1
+	Last queue length: 149
+	Run real time: 0.000302
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 487
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 149
+	jobs_running: 3
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 05:20:41 2017
+	Last cycle when: Sun Jan  1 05:20:41 2017
+	Last cycle: 10856
+	Last depth cycle: 148
+	Last depth cycle (try sched): 148
+	Last queue length: 148
+	Last backfilled jobs: 7
+	Run real time: 0.010900
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 17797
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 141
+	jobs_running: 11
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:20:47 2017
+	Last cycle:   281
+	Last depth cycle: 53524
+	Last scheduled: 1
+	Last queue length: 141
+	Run real time: 0.000324
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 513
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 141
+	jobs_running: 8
+	nodes_idle: 4
+	nodes_mixed: 0
+	nodes_allocated: 15
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:21:47 2017
+	Last cycle:   339
+	Last depth cycle: 53765
+	Last scheduled: 1
+	Last queue length: 140
+	Run real time: 0.000349
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 538
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 140
+	jobs_running: 8
+	nodes_idle: 1
+	nodes_mixed: 0
+	nodes_allocated: 18
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:25:32 2017
+	Last cycle:   448
+	Last depth cycle: 54994
+	Last scheduled: 2
+	Last queue length: 144
+	Run real time: 0.000458
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 736
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 144
+	jobs_running: 5
+	nodes_idle: 3
+	nodes_mixed: 0
+	nodes_allocated: 16
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 05:40:41 2017
+	Last cycle when: Sun Jan  1 05:40:41 2017
+	Last cycle: 4763
+	Last depth cycle: 163
+	Last depth cycle (try sched): 163
+	Last queue length: 163
+	Last backfilled jobs: 6
+	Run real time: 0.004798
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 7921
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 157
+	jobs_running: 11
+	nodes_idle: 5
+	nodes_mixed: 0
+	nodes_allocated: 14
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:41:11 2017
+	Last cycle:   370
+	Last depth cycle: 59929
+	Last scheduled: 1
+	Last queue length: 157
+	Run real time: 0.000380
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 652
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 157
+	jobs_running: 8
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:42:57 2017
+	Last cycle:   312
+	Last depth cycle: 60749
+	Last scheduled: 1
+	Last queue length: 158
+	Run real time: 0.000322
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 534
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 158
+	jobs_running: 5
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:45:47 2017
+	Last cycle:   389
+	Last depth cycle: 62241
+	Last scheduled: 1
+	Last queue length: 163
+	Run real time: 0.000399
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 691
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 163
+	jobs_running: 2
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:47:18 2017
+	Last cycle:   352
+	Last depth cycle: 62809
+	Last scheduled: 1
+	Last queue length: 165
+	Run real time: 0.000362
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 616
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 165
+	jobs_running: 2
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:52:02 2017
+	Last cycle:   537
+	Last depth cycle: 64446
+	Last scheduled: 1
+	Last queue length: 170
+	Run real time: 0.000547
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 907
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 170
+	jobs_running: 1
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 05:56:58 2017
+	Last cycle:   671
+	Last depth cycle: 65703
+	Last scheduled: 3
+	Last queue length: 172
+	Run real time: 0.000683
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1133
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 172
+	jobs_running: 1
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 06:00:41 2017
+	Last cycle when: Sun Jan  1 06:00:41 2017
+	Last cycle: 11429
+	Last depth cycle: 174
+	Last depth cycle (try sched): 174
+	Last queue length: 174
+	Last backfilled jobs: 10
+	Run real time: 0.011534
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 18940
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 164
+	jobs_running: 13
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 06:14:12 2017
+	Last cycle:   372
+	Last depth cycle: 71241
+	Last scheduled: 1
+	Last queue length: 179
+	Run real time: 0.000383
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 631
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 179
+	jobs_running: 4
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 06:15:40 2017
+	Last cycle:   422
+	Last depth cycle: 71722
+	Last scheduled: 1
+	Last queue length: 179
+	Run real time: 0.000431
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 731
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 179
+	jobs_running: 3
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 06:20:41 2017
+	Last cycle when: Sun Jan  1 06:20:41 2017
+	Last cycle: 8422
+	Last depth cycle: 184
+	Last depth cycle (try sched): 184
+	Last queue length: 184
+	Last backfilled jobs: 4
+	Run real time: 0.008467
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 14529
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 180
+	jobs_running: 7
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 06:26:54 2017
+	Last cycle:   336
+	Last depth cycle: 75623
+	Last scheduled: 1
+	Last queue length: 188
+	Run real time: 0.000347
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 578
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 188
+	jobs_running: 5
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 06:38:16 2017
+	Last cycle:   613
+	Last depth cycle: 79264
+	Last scheduled: 1
+	Last queue length: 199
+	Run real time: 0.000624
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1017
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 199
+	jobs_running: 2
+	nodes_idle: 17
+	nodes_mixed: 0
+	nodes_allocated: 2
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 06:40:32 2017
+	Last cycle:   957
+	Last depth cycle: 79863
+	Last scheduled: 4
+	Last queue length: 199
+	Run real time: 0.000968
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1590
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 199
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 06:40:41 2017
+	Last cycle when: Sun Jan  1 06:40:41 2017
+	Last cycle: 20810
+	Last depth cycle: 196
+	Last depth cycle (try sched): 196
+	Last queue length: 196
+	Last backfilled jobs: 10
+	Run real time: 0.020895
+	Run real utime: 3
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 33806
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 186
+	jobs_running: 14
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 06:52:24 2017
+	Last cycle:   395
+	Last depth cycle: 84188
+	Last scheduled: 1
+	Last queue length: 197
+	Run real time: 0.000404
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 673
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 197
+	jobs_running: 4
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 06:57:41 2017
+	Last cycle:   370
+	Last depth cycle: 86202
+	Last scheduled: 1
+	Last queue length: 203
+	Run real time: 0.000379
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 619
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 203
+	jobs_running: 4
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 07:00:41 2017
+	Last cycle when: Sun Jan  1 07:00:41 2017
+	Last cycle: 11597
+	Last depth cycle: 206
+	Last depth cycle (try sched): 206
+	Last queue length: 206
+	Last backfilled jobs: 13
+	Run real time: 0.011644
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 18986
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 193
+	jobs_running: 16
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:07:12 2017
+	Last cycle:   659
+	Last depth cycle: 89488
+	Last scheduled: 2
+	Last queue length: 193
+	Run real time: 0.000684
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1078
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 193
+	jobs_running: 5
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:07:15 2017
+	Last cycle:   286
+	Last depth cycle: 89589
+	Last scheduled: 1
+	Last queue length: 191
+	Run real time: 0.000293
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 477
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 191
+	jobs_running: 6
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:10:25 2017
+	Last cycle:   659
+	Last depth cycle: 90361
+	Last scheduled: 3
+	Last queue length: 190
+	Run real time: 0.000669
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1108
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 190
+	jobs_running: 5
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:14:38 2017
+	Last cycle:   330
+	Last depth cycle: 91412
+	Last scheduled: 1
+	Last queue length: 187
+	Run real time: 0.000339
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 545
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 187
+	jobs_running: 5
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 07:20:41 2017
+	Last cycle when: Sun Jan  1 07:20:41 2017
+	Last cycle: 17895
+	Last depth cycle: 186
+	Last depth cycle (try sched): 186
+	Last queue length: 186
+	Last backfilled jobs: 21
+	Run real time: 0.017943
+	Run real utime: 3
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 29896
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 165
+	jobs_running: 25
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:25:26 2017
+	Last cycle:   315
+	Last depth cycle: 94283
+	Last scheduled: 1
+	Last queue length: 165
+	Run real time: 0.000324
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 517
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 165
+	jobs_running: 17
+	nodes_idle: 8
+	nodes_mixed: 0
+	nodes_allocated: 11
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:26:23 2017
+	Last cycle:   482
+	Last depth cycle: 94750
+	Last scheduled: 2
+	Last queue length: 164
+	Run real time: 0.000492
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 747
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 164
+	jobs_running: 15
+	nodes_idle: 6
+	nodes_mixed: 0
+	nodes_allocated: 13
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:30:08 2017
+	Last cycle:   512
+	Last depth cycle: 95802
+	Last scheduled: 2
+	Last queue length: 162
+	Run real time: 0.000522
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 849
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 162
+	jobs_running: 11
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:38:53 2017
+	Last cycle:   674
+	Last depth cycle: 97949
+	Last scheduled: 3
+	Last queue length: 160
+	Run real time: 0.000684
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1086
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 160
+	jobs_running: 5
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 07:40:42 2017
+	Last cycle when: Sun Jan  1 07:40:41 2017
+	Last cycle: 15263
+	Last depth cycle: 157
+	Last depth cycle (try sched): 157
+	Last queue length: 157
+	Last backfilled jobs: 16
+	Run real time: 0.015304
+	Run real utime: 3
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 24861
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 141
+	jobs_running: 23
+	nodes_idle: 1
+	nodes_mixed: 0
+	nodes_allocated: 18
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:41:41 2017
+	Last cycle:   352
+	Last depth cycle: 98808
+	Last scheduled: 1
+	Last queue length: 141
+	Run real time: 0.000362
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 557
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 141
+	jobs_running: 18
+	nodes_idle: 4
+	nodes_mixed: 0
+	nodes_allocated: 15
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 07:58:53 2017
+	Last cycle:   498
+	Last depth cycle: 102703
+	Last scheduled: 2
+	Last queue length: 140
+	Run real time: 0.000508
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 843
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 140
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 08:00:42 2017
+	Last cycle when: Sun Jan  1 08:00:42 2017
+	Last cycle: 10758
+	Last depth cycle: 138
+	Last depth cycle (try sched): 138
+	Last queue length: 138
+	Last backfilled jobs: 13
+	Run real time: 0.010804
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 17479
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 125
+	jobs_running: 16
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 08:10:53 2017
+	Last cycle:   293
+	Last depth cycle: 105340
+	Last scheduled: 1
+	Last queue length: 125
+	Run real time: 0.000302
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 493
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 125
+	jobs_running: 3
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 08:20:42 2017
+	Last cycle when: Sun Jan  1 08:20:42 2017
+	Last cycle: 9224
+	Last depth cycle: 124
+	Last depth cycle (try sched): 124
+	Last queue length: 124
+	Last backfilled jobs: 14
+	Run real time: 0.009257
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 15332
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 110
+	jobs_running: 16
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 08:22:53 2017
+	Last cycle:   258
+	Last depth cycle: 107204
+	Last scheduled: 1
+	Last queue length: 110
+	Run real time: 0.000266
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 426
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 110
+	jobs_running: 14
+	nodes_idle: 5
+	nodes_mixed: 0
+	nodes_allocated: 14
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 08:36:26 2017
+	Last cycle:   270
+	Last depth cycle: 109631
+	Last scheduled: 1
+	Last queue length: 109
+	Run real time: 0.000278
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 451
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 109
+	jobs_running: 5
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 08:36:29 2017
+	Last cycle:   445
+	Last depth cycle: 109732
+	Last scheduled: 2
+	Last queue length: 108
+	Run real time: 0.000455
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 727
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 108
+	jobs_running: 5
+	nodes_idle: 12
+	nodes_mixed: 0
+	nodes_allocated: 7
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 08:40:42 2017
+	Last cycle when: Sun Jan  1 08:40:42 2017
+	Last cycle: 5376
+	Last depth cycle: 106
+	Last depth cycle (try sched): 106
+	Last queue length: 106
+	Last backfilled jobs: 7
+	Run real time: 0.005408
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 8767
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 99
+	jobs_running: 11
+	nodes_idle: 2
+	nodes_mixed: 0
+	nodes_allocated: 17
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 08:52:53 2017
+	Last cycle:   512
+	Last depth cycle: 112644
+	Last scheduled: 2
+	Last queue length: 99
+	Run real time: 0.000523
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 847
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 99
+	jobs_running: 2
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 08:55:58 2017
+	Last cycle:   252
+	Last depth cycle: 113226
+	Last scheduled: 1
+	Last queue length: 97
+	Run real time: 0.000262
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 421
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 97
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 08:56:59 2017
+	Last cycle:   1571
+	Last depth cycle: 113418
+	Last scheduled: 8
+	Last queue length: 96
+	Run real time: 0.001601
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 2572
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 96
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 09:00:42 2017
+	Last cycle when: Sun Jan  1 09:00:42 2017
+	Last cycle: 9821
+	Last depth cycle: 88
+	Last depth cycle (try sched): 88
+	Last queue length: 88
+	Last backfilled jobs: 22
+	Run real time: 0.009847
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 15915
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 66
+	jobs_running: 28
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:09:04 2017
+	Last cycle:   333
+	Last depth cycle: 115398
+	Last scheduled: 1
+	Last queue length: 66
+	Run real time: 0.000342
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 532
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 66
+	jobs_running: 13
+	nodes_idle: 7
+	nodes_mixed: 0
+	nodes_allocated: 12
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 09:20:42 2017
+	Last cycle when: Sun Jan  1 09:20:42 2017
+	Last cycle: 6363
+	Last depth cycle: 65
+	Last depth cycle (try sched): 65
+	Last queue length: 65
+	Last backfilled jobs: 11
+	Run real time: 0.006392
+	Run real utime: 2
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 10291
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 54
+	jobs_running: 16
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:24:58 2017
+	Last cycle:   247
+	Last depth cycle: 117227
+	Last scheduled: 1
+	Last queue length: 54
+	Run real time: 0.000258
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 422
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 54
+	jobs_running: 10
+	nodes_idle: 7
+	nodes_mixed: 0
+	nodes_allocated: 12
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:25:12 2017
+	Last cycle:   367
+	Last depth cycle: 117280
+	Last scheduled: 1
+	Last queue length: 53
+	Run real time: 0.000376
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 566
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 53
+	jobs_running: 10
+	nodes_idle: 5
+	nodes_mixed: 0
+	nodes_allocated: 14
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:25:31 2017
+	Last cycle:   532
+	Last depth cycle: 117332
+	Last scheduled: 1
+	Last queue length: 52
+	Run real time: 0.000542
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 899
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 52
+	jobs_running: 10
+	nodes_idle: 5
+	nodes_mixed: 0
+	nodes_allocated: 14
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:31:46 2017
+	Last cycle:   245
+	Last depth cycle: 117995
+	Last scheduled: 1
+	Last queue length: 51
+	Run real time: 0.000252
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 400
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 51
+	jobs_running: 3
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 09:40:42 2017
+	Last cycle when: Sun Jan  1 09:40:42 2017
+	Last cycle: 5166
+	Last depth cycle: 50
+	Last depth cycle (try sched): 50
+	Last queue length: 50
+	Last backfilled jobs: 12
+	Run real time: 0.005217
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 8635
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 38
+	jobs_running: 14
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:46:00 2017
+	Last cycle:   224
+	Last depth cycle: 119001
+	Last scheduled: 1
+	Last queue length: 38
+	Run real time: 0.000232
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 382
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 38
+	jobs_running: 7
+	nodes_idle: 10
+	nodes_mixed: 0
+	nodes_allocated: 9
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:46:28 2017
+	Last cycle:   211
+	Last depth cycle: 119075
+	Last scheduled: 1
+	Last queue length: 37
+	Run real time: 0.000220
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 365
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 37
+	jobs_running: 6
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:52:28 2017
+	Last cycle:   489
+	Last depth cycle: 119327
+	Last scheduled: 2
+	Last queue length: 36
+	Run real time: 0.000499
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 831
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 36
+	jobs_running: 6
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 09:59:58 2017
+	Last cycle:   789
+	Last depth cycle: 119735
+	Last scheduled: 4
+	Last queue length: 34
+	Run real time: 0.000799
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1305
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 34
+	jobs_running: 4
+	nodes_idle: 13
+	nodes_mixed: 0
+	nodes_allocated: 6
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 10:00:01 2017
+	Last cycle:   439
+	Last depth cycle: 119765
+	Last scheduled: 2
+	Last queue length: 30
+	Run real time: 0.000448
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 669
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 30
+	jobs_running: 6
+	nodes_idle: 11
+	nodes_mixed: 0
+	nodes_allocated: 8
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 10:00:42 2017
+	Last cycle when: Sun Jan  1 10:00:42 2017
+	Last cycle: 3961
+	Last depth cycle: 28
+	Last depth cycle (try sched): 28
+	Last queue length: 28
+	Last backfilled jobs: 12
+	Run real time: 0.003975
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 6621
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 16
+	jobs_running: 19
+	nodes_idle: 0
+	nodes_mixed: 0
+	nodes_allocated: 19
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 10:14:33 2017
+	Last cycle:   237
+	Last depth cycle: 120285
+	Last scheduled: 1
+	Last queue length: 16
+	Run real time: 0.000246
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 405
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 16
+	jobs_running: 3
+	nodes_idle: 15
+	nodes_mixed: 0
+	nodes_allocated: 4
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 10:20:42 2017
+	Last cycle when: Sun Jan  1 10:20:42 2017
+	Last cycle: 1572
+	Last depth cycle: 15
+	Last depth cycle (try sched): 15
+	Last queue length: 15
+	Last backfilled jobs: 6
+	Run real time: 0.001582
+	Run real utime: 1
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 2587
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 9
+	jobs_running: 9
+	nodes_idle: 9
+	nodes_mixed: 0
+	nodes_allocated: 10
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 10:27:18 2017
+	Last cycle:   286
+	Last depth cycle: 120504
+	Last scheduled: 1
+	Last queue length: 9
+	Run real time: 0.000311
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 465
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 9
+	jobs_running: 4
+	nodes_idle: 14
+	nodes_mixed: 0
+	nodes_allocated: 5
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 10:40:42 2017
+	Last cycle when: Sun Jan  1 10:40:42 2017
+	Last cycle: 742
+	Last depth cycle: 8
+	Last depth cycle (try sched): 8
+	Last queue length: 8
+	Last backfilled jobs: 3
+	Run real time: 0.000750
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 1210
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 5
+	jobs_running: 4
+	nodes_idle: 16
+	nodes_mixed: 0
+	nodes_allocated: 3
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 10:47:18 2017
+	Last cycle:   250
+	Last depth cycle: 120685
+	Last scheduled: 1
+	Last queue length: 5
+	Run real time: 0.000259
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 418
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 5
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 10:59:14 2017
+	Last cycle:   267
+	Last depth cycle: 120737
+	Last scheduled: 1
+	Last queue length: 4
+	Run real time: 0.000277
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 451
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 4
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 10:59:17 2017
+	Last cycle:   205
+	Last depth cycle: 120740
+	Last scheduled: 1
+	Last queue length: 3
+	Run real time: 0.000212
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 352
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 3
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Scheduler*Stats***************************************
+Output time: Sun Jan  1 10:59:20 2017
+	Last cycle:   375
+	Last depth cycle: 120742
+	Last scheduled: 2
+	Last queue length: 2
+	Run real time: 0.000382
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 638
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 2
+	jobs_running: 1
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1
+*Backfill*Stats****************************************
+Output time: Sun Jan  1 11:00:42 2017
+	Last cycle when: Sun Jan  1 10:40:42 2017
+	Last cycle: 742
+	Last depth cycle: 8
+	Last depth cycle (try sched): 8
+	Last queue length: 8
+	Last backfilled jobs: 3
+	Run real time: 0.000005
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 5
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 0
+	jobs_running: 2
+	nodes_idle: 18
+	nodes_mixed: 0
+	nodes_allocated: 1

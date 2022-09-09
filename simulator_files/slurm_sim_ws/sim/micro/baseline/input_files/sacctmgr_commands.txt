@@ -1,0 +1,8 @@
+add account name=account1 Fairshare=100
+add account name=account2 Fairshare=100
+add user name=user1 DefaultAccount=account1 MaxSubmitJobs=1000
+add user name=user2 DefaultAccount=account1 MaxSubmitJobs=1000
+add user name=user3 DefaultAccount=account1 MaxSubmitJobs=1000
+add user name=user4 DefaultAccount=account2 MaxSubmitJobs=1000
+add user name=user5 DefaultAccount=account2 MaxSubmitJobs=1000
+modify user set qoslevel="normal,supporters"

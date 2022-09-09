@@ -1,0 +1,10 @@
+RSlurmSimTools-package
+                        A short title line describing what the package
+                        does
+get_utilization         get_utilization - calculate resource
+                        utilization
+read_simstat_backfill   read_simstat_backfill - read backfill execution
+                        stats
+sim_job                 sim_job - Generates R-list with Resource
+                        Requested by Job
+write_trace             Write Trace Jobs File for Simulation

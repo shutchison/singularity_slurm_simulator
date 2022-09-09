@@ -1,0 +1,108 @@
+AuthType=auth/none
+
+SlurmUser=slurm
+SlurmdUser=root
+ControlMachine=localhost
+ControlAddr=localhost
+
+ReturnToService=1
+CryptoType=crypto/openssl
+MessageTimeout=60
+JobRequeue=0
+CacheGroups=0
+
+JobCredentialPrivateKey = /home/slurm/slurm_sim_ws/sim/micro/baseline/etc/slurm.key
+JobCredentialPublicCertificate = /home/slurm/slurm_sim_ws/sim/micro/baseline/etc/slurm.cert
+
+
+#
+#Sim
+JobCompType=jobcomp/filesacctout
+#JobCompType=jobcomp/filetxt
+JobCompLoc = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/jobcomp.log
+
+PluginDir = /home/slurm/slurm_sim_ws/slurm_opt/lib/slurm
+#PluginDir=/home/mikola/slurm_simulator3/slurm_opt/lib/slurm
+#JobCompType=jobcomp/filesacctout
+#JobCompLoc=/home/mikola/slurm_simulator3/sim/micro3/acct/jobcomp.log
+
+SlurmctldDebug=info
+SlurmdDebug=info
+
+SlurmctldLogFile = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurmctld.log
+SlurmdLogFile = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurmd.log
+SlurmdSpoolDir = /home/slurm/slurm_sim_ws/sim/micro/baseline/var/spool
+StateSaveLocation = /home/slurm/slurm_sim_ws/sim/micro/baseline/var/state
+
+ProctrackType=proctrack/linuxproc
+CheckpointType=checkpoint/none
+SwitchType=switch/none
+TopologyPlugin=topology/tree
+TaskPlugin=task/none
+
+FirstJobId=1000
+
+UsePAM=0
+GresTypes=gpu
+
+
+
+#
+# TIMERS
+SlurmctldTimeout=300
+SlurmdTimeout=300
+InactiveLimit=0
+MinJobAge=300
+KillWait=30
+Waittime=0
+#
+# SCHEDULING
+SchedulerType=sched/backfill
+FairShareDampeningFactor=5
+SlurmSchedLogFile = /home/slurm/slurm_sim_ws/sim/micro/baseline/log/slurm_sched.log
+SelectType=select/cons_res
+SelectTypeParameters=CR_Core_Memory,CR_CORE_DEFAULT_DIST_BLOCK
+FastSchedule=1
+PriorityType=priority/multifactor
+PriorityDecayHalfLife=0-4
+PriorityFavorSmall=NO
+PriorityWeightFairshare=50000
+PriorityWeightAge=50000
+PriorityWeightPartition=1000000
+PriorityWeightJobSize=200000
+PriorityWeightQOS=20000
+PriorityMaxAge=0-5
+EnforcePartLimits=YES
+
+
+# ACCOUNTING
+JobAcctGatherType=jobacct_gather/linux
+
+AccountingStorageType=accounting_storage/slurmdbd
+AccountingStorageEnforce=associations,limits,qos
+AccountingStoreJobComment=YES
+
+AccountingStorageHost=localhost
+
+PropagateResourceLimits=NONE
+
+VSizeFactor=0
+KillOnBadExit=1
+
+ClusterName=beocat
+
+DefaultStoragePort=29001
+SlurmctldPort=29002
+
+
+
+NodeName=DEFAULT RealMemory=48000 Procs=12 Sockets=2 CoresPerSocket=6 ThreadsPerCore=1
+NodeName=n[1-4] Procs=12 Sockets=2 CoresPerSocket=6 ThreadsPerCore=1 Feature=IB,CPU-N
+NodeName=m[1-4] Procs=12 Sockets=2 CoresPerSocket=6 ThreadsPerCore=1 Feature=IB,CPU-M
+NodeName=g1 Procs=12 Sockets=2 CoresPerSocket=6 ThreadsPerCore=1 Gres=gpu:2 Feature=IB,CPU-G
+NodeName=b[1-10] RealMemory=512000 Procs=12 Sockets=2 CoresPerSocket=6 ThreadsPerCore=1 Feature=IB,CPU-G,BigMem
+PartitionName=normal Nodes=n[1-4],m[1-4],g1,b[1-10] Default=YES DefMemPerCPU=2800 MaxTime=INFINITE State=UP
+PartitionName=debug Nodes=n[1-2] DefMemPerCPU=2800 MaxTime=INFINITE State=UP
+
+FrontendName=localhost
+
