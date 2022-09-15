@@ -89,5 +89,5 @@ From: ubuntu:18.04
     echo Done with run!
 
     # Run the post-simulation scipt for clean up actions (if any)
-    /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/pre_simulation_script.sh $*
+    /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/post_simulation_script.sh $*
  
