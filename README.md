@@ -76,8 +76,9 @@ You would stop this instance using:
 singularity instance stop instance1
 ```
 
-To execute the container, we must make the directories read/writable by mapping the `run_folders` into our conatiner in the appropriate places: 
+First, delete any contents of the sql_data folder and then, to execute the container, we must make the directories read/writable by mapping the `run_folders` into our conatiner in the appropriate places: 
 ```
+rm -rf ./run_folders/sql_data/* && \
 singularity run \
  -B ./run_folders/sql_data:/var/lib/mysql \
  -B ./run_folders/sql_run:/var/run/mysqld \
