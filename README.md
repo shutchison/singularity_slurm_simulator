@@ -52,7 +52,7 @@ To reduce the number of ports, the database is directed to use a socket for inte
 If you want your simulation to begin "in the middle of things" or already be running jobs, you would modify the files in this folder to specify what's already running or the current status of your nodes upon simulation start up.  Currently, the simulation starts fresh with no running jobs, and no downed nodes.
 
 ## simulator\_files
-This is a copy of the Slurm simulator files (see: https://github.com/ubccr-slurm-simulator/slurm\_simulator)
+This is a copy of the Slurm simulator files (see: https://github.com/ubccr-slurm-simulator/slurm_simulator)
 
 To start this container as an instance:
 ```
