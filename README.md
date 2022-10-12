@@ -7,6 +7,22 @@ To build the `slurm_sim.sif` container, use the following command:
 ```
 sudo singularity build slurm_sim.sif slurm_sim.def
 ```
+
+To run this container: 
+First, delete any contents of the sql_data folder and then, to execute the container, we must make the directories read/writable by mapping the `run_folders` into our conatiner in the appropriate places: 
+```
+rm -rf ./run_folders/sql_data/* && \
+singularity run \
+ -B ./run_folders/sql_data:/var/lib/mysql \
+ -B ./run_folders/sql_run:/var/run/mysqld \
+ -B ./run_folders/results:/slurm_sim_ws/sim/micro/baseline/results \
+ -B ./run_folders/log:/slurm_sim_ws/sim/micro/baseline/log \
+ -B ./run_folders/var:/slurm_sim_ws/sim/micro/baseline/var \
+ -B ./run_folders/etc:/slurm_sim_ws/sim/micro/baseline/etc \
+ -B ./run_folders/input_files:/slurm_sim_ws/sim/micro/baseline/input_files \
+ slurm_sim.sif  
+```
+
 # About the files in this repo
 The file hierarchy of this repository should look like this:
 ```
@@ -54,17 +70,3 @@ If you want your simulation to begin "in the middle of things" or already be run
 ## simulator\_files
 This is a copy of the Slurm simulator files (see: https://github.com/ubccr-slurm-simulator/slurm_simulator)
 
-To run this container: 
-First, delete any contents of the sql_data folder and then, to execute the container, we must make the directories read/writable by mapping the `run_folders` into our conatiner in the appropriate places: 
-```
-rm -rf ./run_folders/sql_data/* && \
-singularity run \
- -B ./run_folders/sql_data:/var/lib/mysql \
- -B ./run_folders/sql_run:/var/run/mysqld \
- -B ./run_folders/results:/slurm_sim_ws/sim/micro/baseline/results \
- -B ./run_folders/log:/slurm_sim_ws/sim/micro/baseline/log \
- -B ./run_folders/var:/slurm_sim_ws/sim/micro/baseline/var \
- -B ./run_folders/etc:/slurm_sim_ws/sim/micro/baseline/etc \
- -B ./run_folders/input_files:/slurm_sim_ws/sim/micro/baseline/input_files \
- slurm_sim.sif  
-```
