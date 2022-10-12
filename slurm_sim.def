@@ -9,6 +9,7 @@ From: ubuntu:18.04
     cp -R ./R_packages $SINGULARITY_ROOTFS/home/slurm/
 
 %environment
+    export SIM_ROOT=$SINGULARITY_ROOTFS/home/slurm/slurm_sim_ws
 
 %files
 
@@ -46,48 +47,48 @@ From: ubuntu:18.04
     sleep 60
     echo "done sleeping 60"
 
-    mysql -u root -e "CREATE USER 'scotthutch'@'%' IDENTIFIED BY 'slurm';"
-    mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'scotthutch'@'%' WITH GRANT OPTION;"
+    mysql -u root -e "CREATE USER 'slurm'@'%' IDENTIFIED BY 'slurm';"
+    mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'slurm'@'%' WITH GRANT OPTION;"
     mysql -u root -e "CREATE USER 'slurm'@'localhost' IDENTIFIED BY 'slurm';"
     mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'slurm'@'localhost' WITH GRANT OPTION;"
 
     # Execute the pre-simulation running script
     echo "Singularity: Container arguments recieved: $*"
-    /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/pre_simulation_script.sh $*
+    ${SIM_ROOT}/sim/micro/baseline/input_files/pre_simulation_script.sh $*
 
     # Start the slurm database daemon inside the container
-    SLURM_CONF=/home/slurm/slurm_sim_ws/sim/micro/baseline/etc/slurm.conf /home/slurm/slurm_sim_ws/slurm_opt/sbin/slurmdbd -D &
+    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/sbin/slurmdbd -D &
     echo "starting sleep 60 for slurmdbd"
     sleep 60
     echo "done sleep 60 for slurmdbd"
 
     # Run sacct commands to initilaize the container's database for the simulation
-    SLURM_CONF=/home/slurm/slurm_sim_ws/sim/micro/baseline/etc/slurm.conf /home/slurm/slurm_sim_ws/slurm_opt/bin/sacctmgr -i modify QOS set normal Priority=0
+    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/bin/sacctmgr -i modify QOS set normal Priority=0
     sleep 15
-    SLURM_CONF=/home/slurm/slurm_sim_ws/sim/micro/baseline/etc/slurm.conf /home/slurm/slurm_sim_ws/slurm_opt/bin/sacctmgr -i add QOS Name=supporters Priority=100
+    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/bin/sacctmgr -i add QOS Name=supporters Priority=100
     sleep 15
-    SLURM_CONF=/home/slurm/slurm_sim_ws/sim/micro/baseline/etc/slurm.conf /home/slurm/slurm_sim_ws/slurm_opt/bin/sacctmgr -i add cluster Name=beocat Fairshare=1 QOS=normal,supporters
+    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/bin/sacctmgr -i add cluster Name=beocat Fairshare=1 QOS=normal,supporters
 
     echo "starting sleep 60 for database creation"
     sleep 60
     echo "done sleep 60 for database creation"
 
-    mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'scotthutch'@'%' WITH GRANT OPTION;"
-    mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'scotthutch'@'localhost' WITH GRANT OPTION;"
+    mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'slurm'@'%' WITH GRANT OPTION;"
+    mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'slurm'@'localhost' WITH GRANT OPTION;"
 
     # Run the simulator
-    python3 /home/slurm/slurm_sim_ws/slurm_sim_tools/src/slurmsimtools/run_sim.py \
-    -e /home/slurm/slurm_sim_ws/sim/micro/baseline/etc \
-    -s /home/slurm/slurm_sim_ws/slurm_opt \
+    python3 ${SIM_ROOT}/slurm_sim_tools/src/slurmsimtools/run_sim.py \
+    -e ${SIM_ROOT}/sim/micro/baseline/etc \
+    -s ${SIM_ROOT}/slurm_opt \
     -octld slurmctld.out \
     -odbd slurmdbd.out \
     -d \
-    -t /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/test.trace \
-    -a /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/sacctmgr_commands.txt \
-    -r /home/slurm/slurm_sim_ws/sim/micro/baseline/results
+    -t ${SIM_ROOT}/sim/micro/baseline/input_files/test.trace \
+    -a ${SIM_ROOT}/sim/micro/baseline/input_files/sacctmgr_commands.txt \
+    -r ${SIM_ROOT}/sim/micro/baseline/results
 
     echo Done with run!
 
     # Run the post-simulation scipt for clean up actions (if any)
-    /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/post_simulation_script.sh $*
+    ${SIM_ROOT}/sim/micro/baseline/input_files/post_simulation_script.sh $*
  
