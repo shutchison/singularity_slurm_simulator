@@ -2,14 +2,19 @@ Bootstrap: docker
 #From: mariadb:10.1.48
 From: ubuntu:18.04
 %setup
-    mkdir -p $SINGULARITY_ROOTFS/home/slurm/slurm_sim_ws
-    cp -R ./simulator_files/slurm_sim_ws $SINGULARITY_ROOTFS/home/slurm/
-    
-    mkdir -p $SINGULARITY_ROOTFS/home/slurm/slurm_sim_ws
-    cp -R ./R_packages $SINGULARITY_ROOTFS/home/slurm/
+    cp -R ./R_packages $SINGULARITY_ROOTFS
+    cp -R ./simulator_files/slurm_sim_ws $SINGULARITY_ROOTFS
 
 %environment
-    export SIM_ROOT=$SINGULARITY_ROOTFS/home/slurm/slurm_sim_ws
+    export SIM_BIN=/slurm_sim_ws/slurm_opt/bin
+    export SIM_SBIN=/slurm_sim_ws/slurm_opt/sbin
+    export SIM_ETC=/slurm_sim_ws/sim/micro/baseline/etc
+    export SIM_OPT=/slurm_sim_ws/slurm_opt
+    export SIM_INPUT=/slurm_sim_ws/sim/micro/baseline/input_files
+    export SIM_TOOLS=/slurm_sim_ws/slurm_sim_tools/src/slurmsimtools
+    export SIM_RESULTS=/slurm_sim_ws/sim/micro/baseline/results
+    export SIM_LOGS=/slurm_sim/ws/sim/micro/baseline/log
+    export SIM_VAR=/slurm_sim_ws/sim/micro/baseline/var
 
 %files
 
@@ -39,7 +44,8 @@ From: ubuntu:18.04
     echo Done!
 
 %runscript #used when this container is run
-    
+    echo "Singularity: Container arguments recieved: $*"
+
     # prepare the container's database
     mysql_install_db --user=slurm
     mysqld --socket=/run/mysqld/mysqld.sock --skip-networking &
@@ -53,21 +59,20 @@ From: ubuntu:18.04
     mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'slurm'@'localhost' WITH GRANT OPTION;"
 
     # Execute the pre-simulation running script
-    echo "Singularity: Container arguments recieved: $*"
-    ${SIM_ROOT}/sim/micro/baseline/input_files/pre_simulation_script.sh $*
+    $SIM_INPUT/pre_simulation_script.sh $*
 
     # Start the slurm database daemon inside the container
-    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/sbin/slurmdbd -D &
+    SLURM_CONF=$SIM_ETC/slurm.conf $SIM_SBIN/slurmdbd -D &
     echo "starting sleep 60 for slurmdbd"
     sleep 60
     echo "done sleep 60 for slurmdbd"
 
     # Run sacct commands to initilaize the container's database for the simulation
-    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/bin/sacctmgr -i modify QOS set normal Priority=0
+    SLURM_CONF=$SIM_ETC/slurm.conf $SIM_BIN/sacctmgr -i modify QOS set normal Priority=0
     sleep 15
-    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/bin/sacctmgr -i add QOS Name=supporters Priority=100
+    SLURM_CONF=$SIM_ETC/slurm.conf $SIM_BIN/sacctmgr -i add QOS Name=supporters Priority=100
     sleep 15
-    SLURM_CONF=${SIM_ROOT}/sim/micro/baseline/etc/slurm.conf ${SIM_ROOT}/slurm_opt/bin/sacctmgr -i add cluster Name=beocat Fairshare=1 QOS=normal,supporters
+    SLURM_CONF=$SIM_ETC/slurm.conf $SIM_BIN/sacctmgr -i add cluster Name=beocat Fairshare=1 QOS=normal,supporters
 
     echo "starting sleep 60 for database creation"
     sleep 60
@@ -77,18 +82,18 @@ From: ubuntu:18.04
     mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'slurm'@'localhost' WITH GRANT OPTION;"
 
     # Run the simulator
-    python3 ${SIM_ROOT}/slurm_sim_tools/src/slurmsimtools/run_sim.py \
-    -e ${SIM_ROOT}/sim/micro/baseline/etc \
-    -s ${SIM_ROOT}/slurm_opt \
+    python3 $SIM_TOOLS/run_sim.py \
+    -e $SIM_ETC \
+    -s $SIM_OPT \
     -octld slurmctld.out \
     -odbd slurmdbd.out \
     -d \
-    -t ${SIM_ROOT}/sim/micro/baseline/input_files/test.trace \
-    -a ${SIM_ROOT}/sim/micro/baseline/input_files/sacctmgr_commands.txt \
-    -r ${SIM_ROOT}/sim/micro/baseline/results
+    -t $SIM_INPUT/test.trace \
+    -a $SIM_INPUT/sacctmgr_commands.txt \
+    -r $SIM_RESULTS
 
     echo Done with run!
 
     # Run the post-simulation scipt for clean up actions (if any)
-    ${SIM_ROOT}/sim/micro/baseline/input_files/post_simulation_script.sh $*
+    $SIM_INPUT/post_simulation_script.sh $*
  

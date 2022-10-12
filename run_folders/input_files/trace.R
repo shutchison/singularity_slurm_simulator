@@ -59,4 +59,5 @@ trace <- list(
 
 trace <- do.call(rbind, lapply(trace,data.frame))
 
-write_trace("test.trace",trace)
+# Need to change the path in the file that generates this?
+write_trace("/slurm_sim_ws/sim/micro/baseline/input_files/test.trace",trace)

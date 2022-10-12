@@ -9,4 +9,4 @@ echo "Doing pre simulation actions in pre_simulation_scipt.sh"
 #python3 /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/R_code_generator.py $*
 
 # Use the R library to turn the trace file into a binary for injestion by the simulator
-R_LIBS_SITE=/home/slurm/R_packages Rscript ${SIM_ROOT}/sim/micro/baseline/input_files/trace.R
+R_LIBS_SITE=/R_packages Rscript $SIM_INPUT/trace.R

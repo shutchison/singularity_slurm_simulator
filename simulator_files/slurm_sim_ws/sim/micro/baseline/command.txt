@@ -1,9 +1,0 @@
-/home/slurm/slurm_sim_ws/slurm_sim_tools/src/slurmsimtools/run_sim.py \
--e /home/slurm/slurm_sim_ws/sim/micro/baseline/etc \
--s /home/slurm/slurm_sim_ws/slurm_opt \
--octld slurmctld.out \
--odbd slurmdbd.out \
--d \
--t /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/test.trace \
--a /home/slurm/slurm_sim_ws/sim/micro/baseline/input_files/sacctmgr_commands.txt \
--r /home/slurm/slurm_sim_ws/sim/micro/baseline/results

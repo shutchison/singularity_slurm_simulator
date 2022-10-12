@@ -1,0 +1,41 @@
+Bootstrap: docker
+From: ubuntu:18.04
+%setup
+ #  cp -R ./R_packages $SINGULARITY_ROOTFS/home/slurm/
+ #  cp -R ./simulator_files/slurm_sim_ws $SINGULARITY_ROOTFS/home/slurm/
+
+%environment
+    export SIM_ROOT=$SINGULARITY_ROOTFS/home/slurm/slurm_sim_ws
+
+%files
+  ./R_packages
+  ./simulator_files/slurm_sim_ws
+
+%runscript
+  echo "Here is the ls of root:"
+  ls -al $SINGULARITY_ROOTFS
+  echo
+
+  echo "Here is the ls of /home/slurm/:"
+  ls -al /home/slurm
+  echo
+
+  echo "Here is the ls of /home/slurm/R_packages:"
+  ls -al /home/slurm/R_packages
+  echo
+
+  echo "Here is the ls of slurm_sim_ws:"
+  ls -al /home/slurm/slurm_sim_ws
+  echo
+
+  echo "Here is simulator_files/slurm_sim_ws/slurm_opt/bin"
+  ls -al simulator_files/slurm_sim_ws/slurm_opt/bin
+  echo
+
+  echo "Here is R_packages"
+  ls -al R_packages
+  echo
+
+  echo "Here is /R_packages"
+  ls -al /R_packages
+  echo
