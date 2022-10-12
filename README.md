@@ -1,7 +1,7 @@
 # singularity_slurm_simulator
 A Singularity container for the Slurm Simulator
 
-For portability, each container creates its own database for logging information about the submitted and run jobs, and for checking the users in the simulation have the appropriate permissions to access the simulated resources.  When the simulator runs, the database user is your username.  The username/passsword created when building the container should agree with the creditials provided in the '''input_files/etc/slurmdbd.conf''' file.  Edit the slurm_sim.def file (around line 50) to ensure you add your preferred user/password combo.  If you're running this on an HPC system, you should use your HP username as the database admin.
+For portability, each container creates its own database for logging information about the submitted and run jobs, and for checking the users in the simulation have the appropriate permissions to access the simulated resources.  When the simulator runs, the database user is your username.  The username/passsword created when building the container should agree with the creditials provided in the ```input_files/etc/slurmdbd.conf``` file.  Edit the slurm_sim.def file (around line 50) to ensure you add your preferred user/password combo.  If you're running this on an HPC system, you should use your HP username as the database admin.
 
 To build the `slurm_sim.sif` container, use the following command:
 ```
@@ -82,10 +82,10 @@ rm -rf ./run_folders/sql_data/* && \
 singularity run \
  -B ./run_folders/sql_data:/var/lib/mysql \
  -B ./run_folders/sql_run:/var/run/mysqld \
- -B ./run_folders/results:/home/slurm/singularity_slurm_simulator/simulator_files/slurm_sim_ws/sim/micro/baseline/results \
- -B ./run_folders/log:/home/slurm/singularity_slurm_simulator/simulator_files/slurm_sim_ws/sim/micro/baseline/log \
- -B ./run_folders/var:/home/slurm/singularity_slurm_simulator/simulator_files/slurm_sim_ws/sim/micro/baseline/var \
- -B ./run_folders/etc:/home/slurm/singularity_slurm_simulator/simulator_files/slurm_sim_ws/sim/micro/baseline/etc \
- -B ./run_folders/input_files:/home/slurm/singularity_slurm_simulator/simulator_files/slurm_sim_ws/sim/micro/baseline/input_files \
+ -B ./run_folders/results:/home/slurm/slurm_sim_ws/sim/micro/baseline/results \
+ -B ./run_folders/log:/home/slurm/slurm_sim_ws/sim/micro/baseline/log \
+ -B ./run_folders/var:/home/slurm/slurm_sim_ws/sim/micro/baseline/var \
+ -B ./run_folders/etc:/home/slurm/slurm_sim_ws/sim/micro/baseline/etc \
+ -B ./run_folders/input_files:/home/slurm/slurm_sim_ws/sim/micro/baseline/input_files \
  slurm_sim.sif 
 ```
