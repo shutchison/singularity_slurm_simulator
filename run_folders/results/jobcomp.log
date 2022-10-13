@@ -1,0 +1,1 @@
+JobID|JobIDRaw|Cluster|Partition|Account|Group|GID|User|UID|Submit|Eligible|Start|End|Elapsed|ExitCode|State|NNodes|NCPUS|ReqCPUS|ReqMem|Timelimit|NodeList|QOS|ScheduledBy|JobName

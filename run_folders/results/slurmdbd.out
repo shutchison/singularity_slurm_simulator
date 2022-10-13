@@ -1,7 +1,0 @@
-slurmdbd: slurm_sim_conf->time_step=1000000 us
-slurmdbd: debug:  SIM: Found name scotthutch for uid 4020 and gid 4020
-slurmdbd: debug:  Null authentication plugin loaded
-slurmdbd: error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
-slurmdbd: error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.
-slurmdbd: error: mysql_real_connect failed: 2002 Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
-slurmdbd: error: The database must be up when starting the MYSQL plugin.  Trying again in 5 seconds.

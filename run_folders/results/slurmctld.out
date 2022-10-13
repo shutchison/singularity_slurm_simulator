@@ -3,8 +3,94 @@ slurmctld: error: Unable to open pidfile `/var/run/slurmctld.pid': Read-only fil
 slurmctld: Not running as root. Can't drop supplementary groups
 slurmctld: error: Configured MailProg is invalid
 slurmctld: slurmctld version 17.02.2 started on cluster beocat
-slurmctld: error: slurm_persist_conn_open_without_init: failed to open persistant connection to localhost:29001: Connection refused
-slurmctld: error: slurmdbd: Sending PersistInit msg: Connection refused
-slurmctld: error: Association database appears down, reading from state file.
-slurmctld: error: Unable to get any information from the state file
-slurmctld: fatal: slurmdbd and/or database must be up at slurmctld start time
+slurmctld: Couldn't find tres gres/fabric in the database, creating.
+slurmctld: Couldn't find tres gres/gpu in the database, creating.
+slurmctld: layouts: no layout to initialize
+slurmctld: TOPOLOGY: warning -- no switch can reach all nodes through its descendants.Do not use route/topology
+slurmctld: layouts: loading entities/relations information
+slurmctld: error: Could not open node state file /slurm_sim_ws/sim/micro/baseline/var/state/node_state: No such file or directory
+slurmctld: error: NOTE: Trying backup state save file. Information may be lost!
+slurmctld: No node state file (/slurm_sim_ws/sim/micro/baseline/var/state/node_state.old) to recover
+slurmctld: error: Incomplete node data checkpoint file
+slurmctld: Recovered state of 0 nodes
+slurmctld: error: Could not open front_end state file /slurm_sim_ws/sim/micro/baseline/var/state/front_end_state: No such file or directory
+slurmctld: error: NOTE: Trying backup front_end_state save file. Information may be lost!
+slurmctld: No node state file (/slurm_sim_ws/sim/micro/baseline/var/state/front_end_state.old) to recover
+slurmctld: error: Incomplete front_end node data checkpoint file
+slurmctld: Recovered state of 0 front_end nodes
+slurmctld: error: Could not open job state file /slurm_sim_ws/sim/micro/baseline/var/state/job_state: No such file or directory
+slurmctld: error: NOTE: Trying backup state save file. Jobs may be lost!
+slurmctld: No job state file (/slurm_sim_ws/sim/micro/baseline/var/state/job_state.old) to recover
+slurmctld: cons_res: select_p_node_init
+slurmctld: cons_res: preparing for 1 partitions
+slurmctld: error: Could not open reservation state file /slurm_sim_ws/sim/micro/baseline/var/state/resv_state: No such file or directory
+slurmctld: error: NOTE: Trying backup state save file. Reservations may be lost
+slurmctld: No reservation state file (/slurm_sim_ws/sim/micro/baseline/var/state/resv_state.old) to recover
+slurmctld: Recovered state of 0 reservations
+slurmctld: error: Could not open trigger state file /slurm_sim_ws/sim/micro/baseline/var/state/trigger_state: No such file or directory
+slurmctld: error: NOTE: Trying backup state save file. Triggers may be lost!
+slurmctld: No trigger state file (/slurm_sim_ws/sim/micro/baseline/var/state/trigger_state.old) to recover
+slurmctld: error: Incomplete trigger data checkpoint file
+slurmctld: _preserve_plugins: backup_controller not specified
+slurmctld: Reinitializing job accounting state
+slurmctld: Ending any jobs in accounting that were running when controller went down on
+slurmctld: cons_res: select_p_reconfigure
+slurmctld: cons_res: select_p_node_init
+slurmctld: cons_res: preparing for 1 partitions
+slurmctld: Running as primary controller
+slurmctld: Registering slurmctld at port 29002 with slurmdbd.
+slurmctld: No parameter for mcs plugin, default values set
+slurmctld: mcs: MCSParameters = (null). ondemand set.
+slurmctld: JobsTraceFile=/slurm_sim_ws/sim/micro/baseline/input_files/test.trace
+slurmctld: sdiagFileOut=/slurm_sim_ws/sim/micro/baseline/log/sdiag.out
+slurmctld: SimStats=/slurm_sim_ws/sim/micro/baseline/log/simstat.out
+slurmctld: TimeStart=978325200
+slurmctld: StartSecondsBeforeFirstJob=45
+slurmctld: TimeStop=1
+slurmctld: TimeStep=1000000 usec
+slurmctld: AfterJobLaunchTimeIncreament=0
+slurmctld: BFBetweenJobsChecksTimeIncreament=0
+slurmctld: sdiagPeriod=60
+slurmctld: sdiagFileOut=/slurm_sim_ws/sim/micro/baseline/log/sdiag.out
+slurmctld: sprioPeriod=300
+slurmctld: sprioFileOut=/slurm_sim_ws/sim/micro/baseline/log/sprio.out
+slurmctld: sinfoPeriod=60
+slurmctld: sinfoFileOut=/slurm_sim_ws/sim/micro/baseline/log/sinfo.out
+slurmctld: squeuePeriod=300
+slurmctld: squeueFileOut=/slurm_sim_ws/sim/micro/baseline/log/squeue.out
+slurmctld: SharedMemoryName=/slurm_sim.shm
+slurmctld: RunID=(null)
+slurmctld: bf_model_real_prefactor=1.000000
+slurmctld: bf_model_real_power=1.000000
+slurmctld: bf_model_sim_prefactor=1.000000
+slurmctld: bf_model_sim_power=1.000000
+slurmctld: SIM: Trace initialization done. Total trace records: 7
+slurmctld: CPUs=4 Boards=1 Sockets=1 Cores=2 Threads=2 Memory=8192 TmpDisk=8192 Uptime=300 CPUSpecList=(null)
+slurmctld: No last decay (/slurm_sim_ws/sim/micro/baseline/var/state/priority_last_decay_ran) to recover
+slurmctld: SchedulerParameters=default_queue_depth=100,max_rpc_cnt=0,max_sched_time=2,partition_job_depth=0,sched_max_job_start=0,sched_min_interval=0
+                    slurmctld: _job_create: invalid account or partition for user 1001, account 'account1', and partition 'normal'
+slurmctld: _slurm_rpc_submit_batch_job: Invalid account or account/partition combination specified
+	(null)
+slurmctld: Failed submission of job to queue, error_code: 2045 job_id: 1000
+                                                                                                                                  slurmctld: _job_create: invalid account or partition for user 1001, account 'account1', and partition 'normal'
+slurmctld: _slurm_rpc_submit_batch_job: Invalid account or account/partition combination specified
+	(null)
+slurmctld: Failed submission of job to queue, error_code: 2045 job_id: 1001
+                                                                                                    slurmctld: _job_create: invalid account or partition for user 1001, account 'account1', and partition 'normal'
+slurmctld: _slurm_rpc_submit_batch_job: Invalid account or account/partition combination specified
+	(null)
+slurmctld: Failed submission of job to queue, error_code: 2045 job_id: 1002
+                                                                                                                                                                          slurmctld: _job_create: invalid account or partition for user 1001, account 'account1', and partition 'normal'
+slurmctld: _slurm_rpc_submit_batch_job: Invalid account or account/partition combination specified
+	(null)
+slurmctld: Failed submission of job to queue, error_code: 2045 job_id: 1003
+                              slurmctld: _job_create: invalid account or partition for user 1001, account 'account1', and partition 'normal'
+slurmctld: _slurm_rpc_submit_batch_job: Invalid account or account/partition combination specified
+	(null)
+slurmctld: Failed submission of job to queue, error_code: 2045 job_id: 1004
+                                                                                                              slurmctld: _job_create: invalid account or partition for user 1001, account 'account1', and partition 'normal'
+slurmctld: _slurm_rpc_submit_batch_job: Invalid account or account/partition combination specified
+	(null)
+slurmctld: Failed submission of job to queue, error_code: 2045 job_id: 1005
+slurmctld: Error:SIM: unknown user for simulator: 
+          slurmctld: No more jobs to run, terminating simulation

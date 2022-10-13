@@ -1,0 +1,19 @@
+*Backfill*Stats****************************************
+Output time: Mon Apr  2 11:05:57 2018
+	Last cycle when: Wed Dec 31 18:00:00 1969
+	Last cycle: 0
+	Last depth cycle: 0
+	Last depth cycle (try sched): 0
+	Last queue length: 0
+	Last backfilled jobs: 0
+	Run real time: 0.000014
+	Run real utime: 0
+	Run real stime: 0
+	CLK_TCK: 100
+	Run clock: 12
+	CLOCKS_PER_SEC: 1000000
+	jobs_pending: 0
+	jobs_running: 0
+	nodes_idle: 362
+	nodes_mixed: 0
+	nodes_allocated: 0

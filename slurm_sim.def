@@ -13,7 +13,7 @@ From: ubuntu:18.04
     export SIM_INPUT=/slurm_sim_ws/sim/micro/baseline/input_files
     export SIM_TOOLS=/slurm_sim_ws/slurm_sim_tools/src/slurmsimtools
     export SIM_RESULTS=/slurm_sim_ws/sim/micro/baseline/results
-    export SIM_LOGS=/slurm_sim/ws/sim/micro/baseline/log
+    export SIM_LOGS=/slurm_sim_ws/sim/micro/baseline/log
     export SIM_VAR=/slurm_sim_ws/sim/micro/baseline/var
 
 %files

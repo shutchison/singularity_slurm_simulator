@@ -1,41 +1,6 @@
 [
 {
- "time": 1644872177.8143098,
- "slurmdbd": {
-  "cpu_times": {
-   "user": 0.0,
-   "system": 0.04,
-   "children_user": 0.0,
-   "children_system": 0.0,
-   "iowait": 0.0
-  },
-  "cpu_percent": 0.0,
-  "memory_info": {
-   "rss": 4374528,
-   "vms": 45580288,
-   "shared": 3420160,
-   "text": 1724416,
-   "lib": 0,
-   "data": 741376,
-   "dirty": 0
-  },
-  "io_counters": {
-   "read_count": 53,
-   "write_count": 13,
-   "read_bytes": 1472512,
-   "write_bytes": 8192,
-   "read_chars": 43238,
-   "write_chars": 1337
-  },
-  "num_threads": 1,
-  "threads": [
-   {
-    "id": 14460,
-    "user_time": 0.0,
-    "system_time": 0.04
-   }
-  ]
- },
+ "time": 1665681876.819771,
  "slurmd": null,
  "slurmctld": {
   "cpu_times": {
@@ -47,26 +12,26 @@
   },
   "cpu_percent": 0.0,
   "memory_info": {
-   "rss": 4096,
-   "vms": 2953216,
-   "shared": 0,
+   "rss": 573440,
+   "vms": 17399808,
+   "shared": 499712,
    "text": 2572288,
    "lib": 0,
-   "data": 176128,
+   "data": 303104,
    "dirty": 0
   },
   "io_counters": {
-   "read_count": 5,
+   "read_count": 10,
    "write_count": 0,
-   "read_bytes": 167936,
+   "read_bytes": 215040,
    "write_bytes": 0,
-   "read_chars": 1180,
+   "read_chars": 5276,
    "write_chars": 0
   },
   "num_threads": 1,
   "threads": [
    {
-    "id": 14465,
+    "id": 219,
     "user_time": 0.0,
     "system_time": 0.0
    }
