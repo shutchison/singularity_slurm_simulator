@@ -1,8 +1,6 @@
 modify QOS set normal Priority=0
 add QOS Name=supporters Priority=100
 add cluster Name=beocat Fairshare=1 QOS=normal,supporters
-add account name=beodefault Fairshare=100
-add user name=vtuoc DefaultAccount=beodefault MaxSubmitJobs=1000
-add account name=ksu-plantpath-liu3zhen Fairshare=100
-add user name=hecheng DefaultAccount=ksu-plantpath-liu3zhen MaxSubmitJobs=1000
+add account name=account1 Fairshare=100
+add user name=user1 DefaultAccount=account1 MaxSubmitJobs=1000
 modify user set qoslevel="normal,supporters"
