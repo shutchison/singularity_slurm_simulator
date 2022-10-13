@@ -23,6 +23,18 @@ singularity run \
  slurm_sim.sif  
 ```
 
+# Container workflow
+See slurm_sim.def and modify prior to building it if you need to make changes to how this container executes.  As is, this container will 
+1. Create a new database in the empty sql_data folder.  If this folder has database files in it already from previous runs, sometimes the container's database can not start, which will prevent the simulator from running.  It is recommended to delete all files in the sql_data folder prior to running the container.
+2. Add the slurm user as a super user to the database.  This is required because the simulator runs as your user which will create a database to allow for authentication of user accounts in Slurm when they submit jobs.
+3. Run the pre-simulation.sh script.  Any actions required prior to running the simulator need to be done by this script.  For instance, you may need to locate an available port on the running machine for your database to bind to, and adjust the slurmdbd.conf and slurm.conf file's DefaultStoragePort=<whatever open port you've found> (see ```run_folders/input_files/find_open_port.sh``` and ```/run_folders/input_files/update_ports.py```).  You might also want each container to simulate different jobs by generating a new trace.R file (see ```/run_folders/input_files/R_code_generation.py```)
+4. Start the slurm database daemon running in the background and run some sacctmgr commands.  Since this will be the first time starting, the appropriate cluster's database will be created in the database.
+5. Grant the slurm user permissions to the new database.  Again, this is required by Slurm so job records can be created as jobs are simulated.
+6. Do the simulation by calling the run_sim.py script provided by the simulator authors and modified by me.
+    - The -a flag in the script will use sacctmgr to execute the lines of the ```/run_folders/input_files/sacctmgr_commands.txt``` file.  You might need to populate this file with the users and accounts from the set of jobs you've chosen so when a user or account submits a job to the simulation, that user and account will exist already.  Otherwise, the job will not be scheduled for execution by the simulator.
+    - Assuming the simulation went well and didn't crash, upon completing the simulations, the run_sim.py script will copy log files from the log folder into the results folder.  It will do some post processing on the files and create some CSV files which are easier to process than the raw log data itself.  If the logging period is too short (see ```/input_files/etc/sim.conf```) and the simulator is very busy, the output from the Slurm commands (sdiag, sprio, squeue, etc.) as the simulator is running might not complete which can cause parsing errors, even if the simulation completed successfully.
+7. Run the post_simulation_script.sh script to do any actions inside the container prior to container run exit.
+
 # About the files in this repo
 The file hierarchy of this repository should look like this:
 ```
@@ -69,15 +81,3 @@ If you want your simulation to begin "in the middle of things" or already be run
 
 ## simulator\_files
 This is a copy of the Slurm simulator files (see: https://github.com/ubccr-slurm-simulator/slurm_simulator)
-
-# Container workflow
-See slurm_sim.def and modify prior to building it if you need to make changes to how this container executes.  As is, this container will 
-1. Create a new database in the empty sql_data folder.  If this folder has database files in it already from previous runs, sometimes the container's database can not start, which will prevent the simulator from running.  It is recommended to delete all files in the sql_data folder prior to running the container.
-2. Add the slurm user as a super user to the database.  This is required because the simulator runs as your user which will create a database to allow for authentication of user accounts in Slurm when they submit jobs.
-3. Run the pre-simulation.sh script.  Any actions required prior to running the simulator need to be done by this script.  For instance, you may need to locate an available port on the running machine for your database to bind to, and adjust the slurmdbd.conf and slurm.conf file's DefaultStoragePort=<whatever open port you've found> (see ```run_folders/input_files/find_open_port.sh``` and ```/run_folders/input_files/update_ports.py```).  You might also want each container to simulate different jobs by generating a new trace.R file (see ```/run_folders/input_files/R_code_generation.py```)
-4. Start the slurm database daemon running in the background and run some sacctmgr commands.  Since this will be the first time starting, the appropriate cluster's database will be created in the database.
-5. Grant the slurm user permissions to the new database.  Again, this is required by Slurm so job records can be created as jobs are simulated.
-6. Do the simulation by calling the run_sim.py script provided by the simulator authors and modified by me.
-    - The -a flag in the script will use sacctmgr to execute the lines of the ```/run_folders/input_files/sacctmgr_commands.txt``` file.  You might need to populate this file with the users and accounts from the set of jobs you've chosen so when a user or account submits a job to the simulation, that user and account will exist already.  Otherwise, the job will not be scheduled for execution by the simulator.
-    - Assuming the simulation went well and didn't crash, upon completing the simulations, the run_sim.py script will copy log files from the log folder into the results folder.  It will do some post processing on the files and create some CSV files which are easier to process than the raw log data itself.  If the logging period is too short (see ```/input_files/etc/sim.conf```) and the simulator is very busy, the output from the Slurm commands (sdiag, sprio, squeue, etc.) as the simulator is running might not complete which can cause parsing errors, even if the simulation completed successfully.
-7. Run the post_simulation_script.sh script to do any actions inside the container prior to container run exit.
